@@ -1,7 +1,16 @@
+/**
+ * - make the images clickable to get the next image of the plants
+ * - add functionality to show all illustrations of the plants
+ * - show all the flowers
+ * - show all the fruits
+ * - show all the leaves
+ * - add search bar for name/latin search
+ */
+
+/* Function to add one card per entry in plants object */
 function showPlants() {
   const plantsList = document.getElementById('plants-list');
 
-  /* Add one card per entry in plants object */
   for (let i = 0; i < plants.length; i++) {
     const card = document.createElement('div');
     card.setAttribute('class', 'plant');

@@ -1,10 +1,9 @@
 /**
  * - Add pictures: (Format: 4:3, 500px wide)
- *    1) Leaves (Incl. whatever..)
+ *    1) Leaves (Incl. flower or fruit)
  *    2) Illustration (Format: 7:5, 500px wide)
  *    3) Flowers
  *    4) Fruits
- *
  */
 
 const plants = [
