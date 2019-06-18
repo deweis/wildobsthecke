@@ -11,7 +11,7 @@ function showPlants() {
       <div class="card">
         <a href="${plants[i].url}" target="_blank" rel="noopener">
           <img
-            src="img/${plants[i].img}"
+            src="img/${plants[i].img[0]}"
             class="card-img-top"
             alt="${plants[i].latin}"
           />
