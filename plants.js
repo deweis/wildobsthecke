@@ -1,4 +1,20 @@
+/**
+ * - Add pictures:
+ *    1) Leaves (Incl. whatever..)
+ *    2) Illustration
+ *    3) Flowers
+ *    4) Fruits
+ *
+ */
+
 const plants = [
+  {
+    name: 'Kornelkirsche',
+    latin: 'Cornus mas',
+    img: ['cornus_mas-wiki.jpg'],
+    url: ['https://de.wikipedia.org/wiki/Kornelkirsche'],
+    count: 20
+  },
   {
     name: 'Acker-Rose',
     latin: 'Rosa agrestis',
