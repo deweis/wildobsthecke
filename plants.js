@@ -31,7 +31,7 @@ const plants = [
     familie: 'Kreuzdorngewächse',
     famLat: 'Rhamnaceae',
     img: ['rhamnus_alpina-infoflora.jpg', 'rhamnus_alpina-illustration.jpg'],
-    url: ['https://www.infoflora.ch/de/flora/rhamnus-alpina.html'],
+    url: ['https://de.wikipedia.org/wiki/Kreuzdorn'],
     count: 2
   },
   {
@@ -72,5 +72,23 @@ const plants = [
     img: ['crataegus_monogyna-wiki.jpg', 'crataegus_monogyna-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn'],
     count: 12
+  },
+  {
+    name: 'Elsbeere',
+    latin: 'Sorbus torminalis',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: ['sorbus_torminalis-wiki.jpg', 'sorbus_torminalis-illustration.jpg'],
+    url: ['https://de.wikipedia.org/wiki/Elsbeere'],
+    count: 5
+  },
+  {
+    name: 'Gemeine Hasel',
+    latin: 'Corylus avellana',
+    familie: 'Birkengewächse',
+    famLat: 'Betulaceae',
+    img: ['corylus_avellana-wiki.jpg', 'corylus_avellana-illustration.jpg'],
+    url: ['https://de.wikipedia.org/wiki/Gemeine_Hasel'],
+    count: 10
   }
 ];
