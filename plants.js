@@ -29,6 +29,13 @@ const plants = [
     count: 2
   },
   {
+    name: 'Gewöhnliche Felsenbirne',
+    latin: 'Amelanchier ovalis',
+    img: ['amelanchier_ovalis-wiki.jpg', 'amelanchier_ovalis-illustration.jpg'],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
+    count: 15
+  },
+  {
     name: 'Kornelkirsche',
     latin: 'Cornus mas',
     img: ['cornus_mas-wiki.jpg', 'cornus_mas-illustration.jpg'],
@@ -36,10 +43,20 @@ const plants = [
     count: 20
   },
   {
-    name: 'Gewöhnliche Felsenbirne',
-    latin: 'Amelanchier ovalis',
-    img: ['amelanchier_ovalis-wiki.jpg', 'amelanchier_ovalis-illustration.jpg'],
-    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
-    count: 15
+    name: 'Gewöhnliche Berberitze',
+    latin: 'Berberis vulgaris',
+    img: [
+      'berberis_vulgaris-gartenlexikon.jpg',
+      'berberis_vulgaris-illustration.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Berberitze'],
+    count: 10
+  },
+  {
+    name: 'Eingriffeliger Weißdorn',
+    latin: 'Crataegus monogyna',
+    img: ['crataegus_monogyna-wiki.jpg', 'crataegus_monogyna-illustration.jpg'],
+    url: ['https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn'],
+    count: 12
   }
 ];
