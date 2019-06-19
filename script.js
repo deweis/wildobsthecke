@@ -4,9 +4,13 @@
  * - show all the flowers
  * - show all the fruits
  * - show all the leaves
+ * - add wiki icon and make it the link to wikipedia
+ * - add info on flowering/fruiting to the data and show the plants accordingly to what they do in the current month
  */
 
-/* Function to add one card per entry in plants object */
+/**************************************************************************************************
+ * Add one card per entry in plants object
+ */
 function showPlants() {
   const plantsList = document.getElementById('plants-list');
 
@@ -17,7 +21,7 @@ function showPlants() {
     card.setAttribute('id', plantId);
     plantsList.appendChild(card);
 
-    /********************************************************
+    /****************
      * Add the image
      */
     const cardImage = document.createElement('img');
@@ -34,7 +38,7 @@ function showPlants() {
 
     card.appendChild(cardImage);
 
-    /********************************************************
+    /****************
      * Add card body
      */
     const cardBody = document.createElement('div');
@@ -52,28 +56,6 @@ function showPlants() {
       </p>`;
 
     card.appendChild(cardBody);
-
-    /********************************************************
-     * Add the image
-     */
-
-    /*card.innerHTML = `
-      <div class="card">
-        <a href="${plants[i].url}" target="_blank" rel="noopener">
-          <img
-            src="img/${plants[i].img[0]}"
-            class="card-img-top"
-            alt="${plants[i].latin}"
-          />
-        </a>
-        <div class="card-body">
-          <p class="card-text">
-          ${plants[i].name} (${plants[i].count})
-            <br />
-            <strong>${plants[i].latin}</strong>
-          </p>
-        </div>
-      </div>`;*/
   }
 }
 
@@ -92,7 +74,7 @@ function generateId(str) {
 }
 
 /**************************************************************************************************
- * Helper Function to get next image of the array of images per plant
+ * Helper Function to get the next image of the array of images per plant
  * I.e. loop through the array
  */
 function nextImage(plantId, imageDiv, indexImage) {
@@ -112,4 +94,5 @@ function nextImage(plantId, imageDiv, indexImage) {
   return (imageDiv.src = `img/${thePlantImages[nextImg]}`);
 }
 
+/* Initial Load */
 showPlants();
