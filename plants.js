@@ -83,6 +83,18 @@ const plants = [
     count: 5
   },
   {
+    name: 'Faulbaum',
+    latin: 'Rhamnus frangula',
+    familie: 'Kreuzdorngewächse',
+    famLat: 'Rhamnaceae',
+    img: [
+      'rhamnus_fragula-zdravnitza.jpg',
+      'rhamnus_frangula-illustrationjpg.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Faulbaum'],
+    count: 2
+  },
+  {
     name: 'Gemeine Hasel',
     latin: 'Corylus avellana',
     familie: 'Birkengewächse',

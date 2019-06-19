@@ -47,9 +47,8 @@ function showPlants() {
       <a href="${
         plants[i].url
       }" target="_blank" rel="noopener"><p class="card-text">
-        ${plants[i].name}</a> (${plants[i].count}) - <strong>${
-      plants[i].latin
-    }</strong>
+        ${plants[i].name}</a> (${plants[i].count})<br>
+        <strong>${plants[i].latin}</strong>
       </p>
       <p>
       ${plants[i].familie} (${plants[i].famLat})
