@@ -10,6 +10,8 @@ const plants = [
   {
     name: 'Acker-Rose',
     latin: 'Rosa agrestis',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
     img: ['rosa_agrestis-wiki.jpg', 'rosa_agrestis-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Acker-Rose'],
     count: 1
@@ -17,6 +19,8 @@ const plants = [
   {
     name: 'Alpen-Rose',
     latin: 'Rosa pendulina',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
     img: ['rosa_pendulina-wiki.jpg', 'rosa_pendulina-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
     count: 1
@@ -24,6 +28,8 @@ const plants = [
   {
     name: 'Alpenkreuzdorn',
     latin: 'Rhamnus alpina',
+    familie: 'Kreuzdorngewächse',
+    famLat: 'Rhamnaceae',
     img: ['rhamnus_alpina-infoflora.jpg', 'rhamnus_alpina-illustration.jpg'],
     url: ['https://www.infoflora.ch/de/flora/rhamnus-alpina.html'],
     count: 2
@@ -31,6 +37,8 @@ const plants = [
   {
     name: 'Gewöhnliche Felsenbirne',
     latin: 'Amelanchier ovalis',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
     img: ['amelanchier_ovalis-wiki.jpg', 'amelanchier_ovalis-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
     count: 15
@@ -38,6 +46,8 @@ const plants = [
   {
     name: 'Kornelkirsche',
     latin: 'Cornus mas',
+    familie: 'Hartriegelgewächse',
+    famLat: 'Cornaceae',
     img: ['cornus_mas-wiki.jpg', 'cornus_mas-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Kornelkirsche'],
     count: 20
@@ -45,6 +55,8 @@ const plants = [
   {
     name: 'Gewöhnliche Berberitze',
     latin: 'Berberis vulgaris',
+    familie: 'Berberitzengewächse',
+    famLat: 'Berberidaceae',
     img: [
       'berberis_vulgaris-gartenlexikon.jpg',
       'berberis_vulgaris-illustration.jpg'
@@ -55,6 +67,8 @@ const plants = [
   {
     name: 'Eingriffeliger Weißdorn',
     latin: 'Crataegus monogyna',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
     img: ['crataegus_monogyna-wiki.jpg', 'crataegus_monogyna-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn'],
     count: 12

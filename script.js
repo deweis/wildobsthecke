@@ -46,6 +46,9 @@ function showPlants() {
         ${plants[i].name}</a> (${plants[i].count}) - <strong>${
       plants[i].latin
     }</strong>
+      </p>
+      <p>
+      ${plants[i].familie} (${plants[i].famLat})
       </p>`;
 
     card.appendChild(cardBody);
