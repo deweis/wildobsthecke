@@ -31,8 +31,6 @@ function showPlants() {
 
     // switch to the next image upon click
     cardImage.addEventListener('click', function() {
-      console.log('clicked image: ', plantId);
-      console.log(this);
       return nextImage(plantId, this);
     });
 
@@ -49,8 +47,7 @@ function showPlants() {
       }" target="_blank" rel="noopener"><p class="card-text">
         ${plants[i].name}</a> (${plants[i].count})<br>
         <strong>${plants[i].latin}</strong>
-      </p>
-      <p>
+        <br ><br >
       ${plants[i].familie} (${plants[i].famLat})
       </p>`;
 

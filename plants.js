@@ -12,7 +12,11 @@ const plants = [
     latin: 'Rosa agrestis',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
-    img: ['rosa_agrestis-wiki.jpg', 'rosa_agrestis-illustration.jpg'],
+    img: [
+      'rosa_agrestis-astrantias.jpg',
+      'rosa_agrestis-illustration.jpg',
+      'rosa_agrestis-wiki.jpg'
+    ],
     url: ['https://de.wikipedia.org/wiki/Acker-Rose'],
     count: 1
   },
@@ -42,6 +46,19 @@ const plants = [
     img: ['amelanchier_ovalis-wiki.jpg', 'amelanchier_ovalis-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
     count: 15
+  },
+  {
+    name: 'Felsenkirsche',
+    latin: 'Prunus mahaleb',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_mahaleb-wiki.jpg',
+      'prunus_mahaleb-illustration.jpg',
+      'prunus_mahaleb-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Steinweichsel'],
+    count: 3
   },
   {
     name: 'Kornelkirsche',
