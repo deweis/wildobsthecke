@@ -65,6 +65,19 @@ const plants = [
     count: 3
   },
   {
+    name: 'Kirschpflaume',
+    latin: 'Prunus cerasifera',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_cerasifera-wiki.jpg',
+      'prunus_cerasifera-illustration.jpg',
+      'prunus_cerasifera-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Kirschpflaume'],
+    count: 3
+  },
+  {
     name: 'Kornelkirsche',
     latin: 'Cornus mas',
     familie: 'Hartriegelgewächse',
