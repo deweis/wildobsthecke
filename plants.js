@@ -78,6 +78,19 @@ const plants = [
     count: 3
   },
   {
+    name: 'Gemeiner Schneeball',
+    latin: 'Viburnum opulus',
+    familie: 'Moschuskrautgewächse',
+    famLat: 'Adoxaceae',
+    img: [
+      'viburnum_opulus-wiki.jpg',
+      'viburnum_opulus-illustration.jpg',
+      'viburnum_opulus-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Schneeball'],
+    count: 2
+  },
+  {
     name: 'Kornelkirsche',
     latin: 'Cornus mas',
     familie: 'Hartriegelgewächse',
