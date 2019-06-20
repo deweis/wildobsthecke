@@ -43,7 +43,11 @@ const plants = [
     latin: 'Amelanchier ovalis',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
-    img: ['amelanchier_ovalis-wiki.jpg', 'amelanchier_ovalis-illustration.jpg'],
+    img: [
+      'amelanchier_ovalis-wiki.jpg',
+      'amelanchier_ovalis-illustration.jpg',
+      'amelanchier_ovalis-flowers-dwe.jpg'
+    ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
     count: 15
   },
