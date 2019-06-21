@@ -162,5 +162,18 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gr%C3%BCn-Erle'],
     count: 2
+  },
+  {
+    name: 'Gemeiner Liguster',
+    latin: 'Ligustrum vulgare',
+    familie: 'Ölbaumgewächse',
+    famLat: 'Oleaceae',
+    img: [
+      'ligustrum_vulgare-treeseedonline.jpg',
+      'ligustrum_vulgare-illustration.jpg',
+      'ligustrum_vulgare-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster'],
+    count: 2
   }
 ];
