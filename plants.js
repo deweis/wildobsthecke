@@ -175,5 +175,18 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster'],
     count: 2
+  },
+  {
+    name: 'Korb-Weide',
+    latin: 'Salix viminalis',
+    familie: 'Weidengewächse',
+    famLat: 'Salicaceae',
+    img: [
+      'salix_viminalis-wiki.jpg',
+      'salix_viminalis-illustration.jpg',
+      'salix_viminalis-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Korb-Weide'],
+    count: 1
   }
 ];
