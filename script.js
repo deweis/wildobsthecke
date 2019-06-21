@@ -1,5 +1,4 @@
 /**
- * - add functionality to show all illustrations of the plants
  * - add search bar for name/latin search
  * - show all the flowers
  * - show all the fruits
@@ -7,6 +6,8 @@
  * - add wiki icon and make it the link to wikipedia
  * - add info on flowering/fruiting to the data and show the plants accordingly to what they do in the current month
  */
+
+let showIllustrations = 0; // Show illustrations (1) or photographs (0) as default picture
 
 /**************************************************************************************************
  * Add one card per entry in plants object
@@ -25,7 +26,7 @@ function showPlants() {
      * Add the image
      */
     const cardImage = document.createElement('img');
-    cardImage.setAttribute('src', `img/${plants[i].img[0]}`);
+    cardImage.setAttribute('src', `img/${plants[i].img[showIllustrations]}`);
     cardImage.setAttribute('class', 'card-img-top');
     cardImage.setAttribute('alt', `${plants[i].latin}`);
 
@@ -46,8 +47,7 @@ function showPlants() {
         plants[i].url
       }" target="_blank" rel="noopener"><p class="card-text">
         ${plants[i].name}</a> (${plants[i].count})<br>
-        <strong>${plants[i].latin}</strong>
-        <br ><br >
+        <h4>${plants[i].latin}</h4>
       ${plants[i].familie} (${plants[i].famLat})
       </p>`;
 
@@ -89,6 +89,20 @@ function nextImage(plantId, imageDiv, indexImage) {
 
   return (imageDiv.src = `img/${thePlantImages[nextImg]}`);
 }
+
+/**************************************************************************************************
+ * Change Pictures to illustrations and vice versa upon title click
+ */
+document
+  .querySelector('.btn-illustrations')
+  .addEventListener('click', function() {
+    showIllustrations = showIllustrations === 0 ? 1 : 0; // Change default of picture type shown
+    const imageNodes = document.querySelectorAll('.card-img-top');
+
+    imageNodes.forEach(node => {
+      nextImage(node.parentNode.id, node, showIllustrations);
+    });
+  });
 
 /* Initial Load */
 showPlants();
