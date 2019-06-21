@@ -201,5 +201,31 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Korb-Weide'],
     count: 1
+  },
+  {
+    name: 'Mispel',
+    latin: 'Mespilus germanica',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'mespilus_germanica-wiki.jpg',
+      'mespilus_germanica-illustration.jpg',
+      'mespilus_germanica-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Mispel'],
+    count: 10
+  },
+  {
+    name: 'Gewöhnlicher Spindelstrauch / Pfaffenhütchen',
+    latin: 'Euonymus europea',
+    familie: 'Spindelbaumgewächse',
+    famLat: 'Celastraceae',
+    img: [
+      'euonymus_europaeus-eggert-baumschulen.jpg',
+      'euonymus_europaeus-illustration.jpg',
+      'euonymus_europaeus-naturespot.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Mispel'],
+    count: 10
   }
 ];

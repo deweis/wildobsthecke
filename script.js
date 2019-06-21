@@ -1,4 +1,5 @@
 /**
+ * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
  * - add search bar for name/latin search
  * - show all the flowers
  * - show all the fruits
