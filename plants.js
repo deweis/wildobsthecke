@@ -130,6 +130,19 @@ const plants = [
     count: 5
   },
   {
+    name: 'Echte Mehlbeere',
+    latin: 'Sorbus aria',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'sorbus_aria-wiki.jpg',
+      'sorbus_aria-illustration.jpg',
+      'sorbus_aria-baumschule-horstmann.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Echte_Mehlbeere'],
+    count: 5
+  },
+  {
     name: 'Faulbaum',
     latin: 'Rhamnus frangula',
     familie: 'Kreuzdorngewächse',
