@@ -149,5 +149,18 @@ const plants = [
     img: ['corylus_avellana-wiki.jpg', 'corylus_avellana-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Gemeine_Hasel'],
     count: 10
+  },
+  {
+    name: 'Grün-Erle',
+    latin: 'Alnus viridis',
+    familie: 'Birkengewächse',
+    famLat: 'Betulaceae',
+    img: [
+      'alnus_viridis-wiki.jpg',
+      'alnus_viridis-illustration.jpg',
+      'alnus_viridis-infoflora.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gr%C3%BCn-Erle'],
+    count: 2
   }
 ];
