@@ -78,6 +78,19 @@ const plants = [
     count: 3
   },
   {
+    name: 'Schwarzdorn / Schlehdorn',
+    latin: 'Prunus spinosa',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_spinosa-pixabay.jpg',
+      'prunus_spinosa-illustration.jpg',
+      'prunus_spinosa-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Kirschpflaume'],
+    count: 12
+  },
+  {
     name: 'Gemeiner Schneeball',
     latin: 'Viburnum opulus',
     familie: 'Moschuskrautgewächse',
