@@ -117,6 +117,19 @@ const plants = [
     count: 2
   },
   {
+    name: 'Schwarzer Holunder',
+    latin: 'Sambucus nigra',
+    familie: 'Moschuskrautgewächse',
+    famLat: 'Adoxaceae',
+    img: [
+      'sambucus_nigra-baumschule-2000.jpg',
+      'sambucus_nigra-illustration.jpg',
+      'sambucus_nigra-pflanzenbestimmung.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Schwarzer_Holunder'],
+    count: 2
+  },
+  {
     name: 'Kornelkirsche',
     latin: 'Cornus mas',
     familie: 'Hartriegelgewächse',
@@ -272,7 +285,7 @@ const plants = [
     count: 10
   },
   {
-    name: 'Gewöhnlicher Spindelstrauch / Pfaffenhütchen',
+    name: 'Pfaffenhütchen', // Gewöhnlicher Spindelstrauch
     latin: 'Euonymus europea',
     familie: 'Spindelbaumgewächse',
     famLat: 'Celastraceae',
