@@ -156,6 +156,19 @@ const plants = [
     count: 5
   },
   {
+    name: 'Speierling',
+    latin: 'Sorbus domestica',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'sorbus_domestica-wiki.jpg',
+      'sorbus_domestica-illustration.jpg',
+      'sorbus_domestica-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Speierling'],
+    count: 5
+  },
+  {
     name: 'Faulbaum',
     latin: 'Rhamnus frangula',
     familie: 'Kreuzdorngewächse',
