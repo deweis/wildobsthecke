@@ -156,6 +156,19 @@ const plants = [
     count: 5
   },
   {
+    name: 'Vogelbeere',
+    latin: 'Sorbus aucuparia',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'sorbus_aucuparia-wiki.jpg',
+      'sorbus_aucuparia-illustration.jpg',
+      'sorbus_aucuparia-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Vogelbeere'],
+    count: 5
+  },
+  {
     name: 'Speierling',
     latin: 'Sorbus domestica',
     familie: 'Rosengewächse',
