@@ -8,28 +8,6 @@
 
 const plants = [
   {
-    name: 'Acker-Rose',
-    latin: 'Rosa agrestis',
-    familie: 'Rosengewächse',
-    famLat: 'Rosaceae',
-    img: [
-      'rosa_agrestis-astrantias.jpg',
-      'rosa_agrestis-illustration.jpg',
-      'rosa_agrestis-wiki.jpg'
-    ],
-    url: ['https://de.wikipedia.org/wiki/Acker-Rose'],
-    count: 1
-  },
-  {
-    name: 'Alpen-Rose',
-    latin: 'Rosa pendulina',
-    familie: 'Rosengewächse',
-    famLat: 'Rosaceae',
-    img: ['rosa_pendulina-wiki.jpg', 'rosa_pendulina-illustration.jpg'],
-    url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
-    count: 1
-  },
-  {
     name: 'Alpenkreuzdorn',
     latin: 'Rhamnus alpina',
     familie: 'Kreuzdorngewächse',
@@ -348,5 +326,27 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Wildbirne'],
     count: 3
-  }
+  },
+  {
+    name: 'Acker-Rose',
+    latin: 'Rosa agrestis',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'rosa_agrestis-astrantias.jpg',
+      'rosa_agrestis-illustration.jpg',
+      'rosa_agrestis-wiki.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Acker-Rose'],
+    count: 1
+  },
+  {
+    name: 'Alpen-Rose',
+    latin: 'Rosa pendulina',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: ['rosa_pendulina-wiki.jpg', 'rosa_pendulina-illustration.jpg'],
+    url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
+    count: 1
+  },
 ];
