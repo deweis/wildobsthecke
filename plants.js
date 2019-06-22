@@ -279,5 +279,18 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Sanddorn'],
     count: 10
+  },
+  {
+    name: 'Gewöhnliche Waldrebe / Niele',
+    latin: 'Clematis vitalba',
+    familie: 'Hahnenfußgewächse',
+    famLat: 'Ranunculaceae',
+    img: [
+      'clematis_vitalba-first-nature.jpg',
+      'clematis_vitalba-illustration.jpg',
+      'clematis_vitalba-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Waldrebe'],
+    count: 5
   }
 ];
