@@ -104,6 +104,19 @@ const plants = [
     count: 2
   },
   {
+    name: 'Roter Holunder',
+    latin: 'Sambucus racemosa',
+    familie: 'Moschuskrautgewächse',
+    famLat: 'Adoxaceae',
+    img: [
+      'sambucus_racemosa-jerseyyards.jpg',
+      'sambucus_racemosa-illustration.jpg',
+      'sambucus_racemosa-wildseedproject.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Roter_Holunder'],
+    count: 2
+  },
+  {
     name: 'Kornelkirsche',
     latin: 'Cornus mas',
     familie: 'Hartriegelgewächse',
