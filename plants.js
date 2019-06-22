@@ -129,7 +129,11 @@ const plants = [
     latin: 'Crataegus monogyna',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
-    img: ['crataegus_monogyna-wiki.jpg', 'crataegus_monogyna-illustration.jpg'],
+    img: [
+      'crataegus_monogyna-futureforests.jpg',
+      'crataegus_monogyna-illustration.jpg',
+      'crataegus_monogyna-wiki2.jpg'
+    ],
     url: ['https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn'],
     count: 12
   },
@@ -304,6 +308,19 @@ const plants = [
       'malus_sylvestris-euforgen2.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Holzapfel'],
+    count: 3
+  },
+  {
+    name: 'Wildbirne',
+    latin: 'Pyrus pyraster',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'pyrus_pyraster-antropocene.jpg',
+      'pyrus_pyraster-illustration.jpg',
+      'pyrus_pyraster-fotocommunity.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Wildbirne'],
     count: 3
   }
 ];
