@@ -1,11 +1,12 @@
 /**
  * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
- * - add search bar for name/latin search
+ * - add clickable family names - to show all the plants from the same family (another click shows all again)
  * - show all the flowers
  * - show all the fruits
  * - show all the leaves
  * - add wiki icon and make it the link to wikipedia
  * - add info on flowering/fruiting to the data and show the plants accordingly to what they do in the current month
+ *   resp. button to show the respective picture according to what they do now...
  */
 
 let showIllustrations = 0; // Show illustrations (1) or photographs (0) as default picture
@@ -104,6 +105,25 @@ document
       nextImage(node.parentNode.id, node, showIllustrations);
     });
   });
+
+/**************************************************************************************************
+ * The Plant Search
+ */
+function showSearchResults(plantName) {
+  const regExp = new RegExp(plantName, 'gi');
+
+  // Filter the plants that match either the german or latin name
+  let filteredPlants = plants
+    .filter(plant => plant.name.match(regExp) || plant.latin.match(regExp))
+    .map(plant => generateId(plant.latin));
+
+  // Hide the plants not matching
+  document.querySelectorAll('.card').forEach(plant => {
+    filteredPlants.includes(plant.id)
+      ? plant.classList.remove('hide-plant')
+      : plant.classList.add('hide-plant');
+  });
+}
 
 /* Initial Load */
 showPlants();

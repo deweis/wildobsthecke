@@ -21,7 +21,6 @@
     <!-- Section Navigation -->
     <div class="container">
       <nav class="navbar navbar-light bg-light">
-        <!-- <div id="illustrations" class="icon-illustrations"> -->
         <button
           type="button"
           class="btn btn-info btn-illustrations shadow-none"
@@ -29,7 +28,16 @@
           <i class="fas fa-paint-brush"></i>
         </button>
 
-        <!-- </div> -->
+        <div class="plant-search">
+          <input
+            type="text"
+            id="text-search"
+            class="form-control"
+            placeholder="Suche.."
+            oninput="showSearchResults(this.value)"
+            aria-label="Suche Pflanzen"
+          />
+        </div>
       </nav>
     </div>
 
