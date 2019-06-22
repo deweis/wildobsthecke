@@ -44,11 +44,11 @@ function showPlants() {
     const cardBody = document.createElement('div');
     cardBody.setAttribute('class', 'card-body');
     cardBody.innerHTML = `
-      <a href="${
-        plants[i].url
-      }" target="_blank" rel="noopener"><p class="card-text">
-        ${plants[i].name}</a> (${plants[i].count})<br>
-        <h4>${plants[i].latin}</h4>
+      <h4>${plants[i].latin}</h4>
+      <a href="${plants[i].url}" target="_blank" rel="noopener">
+      <p class="card-text">
+        ${plants[i].name}</a> (${plants[i].count})<br ><br >
+        
       ${plants[i].familie} (${plants[i].famLat})
       </p>`;
 
