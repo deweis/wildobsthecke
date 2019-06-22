@@ -240,5 +240,18 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Mispel'],
     count: 10
+  },
+  {
+    name: 'Sanddorn',
+    latin: 'Hippophae rhamnoides',
+    familie: 'Ölweidengewächse',
+    famLat: 'Elaeagnaceae',
+    img: [
+      'hippophae_rhamnoides-wiki.jpg',
+      'hippophae_rhamnoides-illustration.jpg',
+      'hippophae_rhamnoides-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Sanddorn'],
+    count: 10
   }
 ];
