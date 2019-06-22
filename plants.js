@@ -292,5 +292,18 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Waldrebe'],
     count: 5
+  },
+  {
+    name: 'Wildapfel / Holzapfel',
+    latin: 'Malus sylvestris',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'malus_sylvestris-euforgen.jpg',
+      'malus_sylvestris-illustration.jpg',
+      'malus_sylvestris-euforgen2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Holzapfel'],
+    count: 3
   }
 ];
