@@ -142,7 +142,7 @@ const plants = [
     count: 10
   },
   {
-    name: 'Eingriffeliger Weißdorn',
+    name: 'Eingriffeliger Weissdorn',
     latin: 'Crataegus monogyna',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
@@ -153,6 +153,19 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn'],
     count: 12
+  },
+  {
+    name: 'Zweigriffeliger Weissdorn',
+    latin: 'Crataegus laevigata',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'crataegus_laevigata-freenatureimages.jpg',
+      'crataegus_laevigata-illustration.jpg',
+      'crataegus_laevigata-freenatureimages2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Zweigriffeliger_Wei%C3%9Fdorn'],
+    count: 2
   },
   {
     name: 'Elsbeere',
@@ -330,7 +343,7 @@ const plants = [
   {
     name: 'Gewöhnliche Waldrebe / Niele',
     latin: 'Clematis vitalba',
-    familie: 'Hahnenfußgewächse',
+    familie: 'Hahnenfussgewächse',
     famLat: 'Ranunculaceae',
     img: [
       'clematis_vitalba-first-nature.jpg',
