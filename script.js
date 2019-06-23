@@ -126,6 +126,15 @@ document
 function showSearchResults(plantName) {
   const regExp = new RegExp(plantName, 'gi');
 
+  // Clear the fam-Name filter if applied
+  if (filtered === 1) {
+    filtered = 0;
+
+    document.querySelectorAll('.family-name').forEach(plant => {
+      plant.classList.remove('fam-filtered');
+    });
+  }
+
   // Filter the plants that match either the german or latin name
   let filteredPlants = plants
     .filter(plant => plant.name.match(regExp) || plant.latin.match(regExp))
@@ -161,6 +170,10 @@ function filterFamily(fam) {
   else {
     return removeFilter();
   }
+
+  // Clear text-input if filled
+  let textField = document.querySelector('#text-search');
+  textField.value = '';
 
   // Filter the plants that match the family name
   let filteredPlants = plants
