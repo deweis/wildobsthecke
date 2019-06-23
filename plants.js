@@ -354,6 +354,19 @@ const plants = [
     count: 5
   },
   {
+    name: 'Rote Heckenkirsche',
+    latin: 'Lonicera xylosteum',
+    familie: 'Geißblattgewächse',
+    famLat: 'Caprifoliaceae',
+    img: [
+      'lonicera_xylosteum-wiki.jpg',
+      'lonicera_xylosteum-illustration.jpg',
+      'lonicera_xylosteum-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Rote_Heckenkirsche'],
+    count: 2
+  },
+  {
     name: 'Wildapfel / Holzapfel',
     latin: 'Malus sylvestris',
     familie: 'Rosengewächse',
