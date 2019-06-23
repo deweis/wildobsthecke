@@ -177,7 +177,7 @@ const plants = [
     count: 5
   },
   {
-    name: 'Echte Mehlbeere',
+    name: 'Mehlbeere',
     latin: 'Sorbus aria',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
