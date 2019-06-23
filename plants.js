@@ -419,6 +419,19 @@ const plants = [
     count: 2
   },
   {
+    name: 'Schwarze Heckenkirsche',
+    latin: 'Lonicera nigra',
+    familie: 'Geißblattgewächse',
+    famLat: 'Caprifoliaceae',
+    img: [
+      'lonicera_nigra-wiki.jpg',
+      'lonicera_nigra-illustration.jpg',
+      'lonicera_nigra-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Schwarze_Heckenkirsche'],
+    count: 2
+  },
+  {
     name: 'Wildapfel / Holzapfel',
     latin: 'Malus sylvestris',
     familie: 'Rosengewächse',
