@@ -1,6 +1,8 @@
 /**
  * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
+ * - Fix: Enter on smarphone should hide the editor
  * - add clickable family names - to show all the plants from the same family (another click shows all again)
+ * - sort plants (in db) by family / latin name asc
  * - show all the flowers
  * - show all the fruits
  * - show all the leaves
@@ -125,5 +127,21 @@ function showSearchResults(plantName) {
   });
 }
 
-/* Initial Load */
+/* Remove focus from the text input on enter click */
+document
+  .querySelector('#text-search')
+  .addEventListener('keyup', function(event) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+      // Trigger the search button with a click
+      this.blur();
+    }
+  });
+
+/**************************************************************************************************
+ * Load the page
+ */
 showPlants();
