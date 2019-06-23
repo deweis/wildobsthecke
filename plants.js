@@ -341,6 +341,19 @@ const plants = [
     count: 1
   },
   {
+    name: 'Schwarz-Weide',
+    latin: 'Salix nigricans',
+    familie: 'Weidengewächse',
+    famLat: 'Salicaceae',
+    img: [
+      'salix_nigricans-futureplanter.jpg',
+      'salix_nigricans-illustration.jpg',
+      'salix_nigricans-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Schwarz-Weide'],
+    count: 1
+  },
+  {
     name: 'Mispel',
     latin: 'Mespilus germanica',
     familie: 'Rosengewächse',
