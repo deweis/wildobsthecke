@@ -211,6 +211,19 @@ const plants = [
     count: 10
   },
   {
+    name: 'Grau- / Weiss-Erle',
+    latin: 'Alnus incana',
+    familie: 'Birkengewächse',
+    famLat: 'Betulaceae',
+    img: [
+      'alnus_incana-wiki.jpg',
+      'alnus_incana-illustration.jpg',
+      'alnus_incana-rhs.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Grau-Erle'],
+    count: 2
+  },
+  {
     name: 'Grün-Erle',
     latin: 'Alnus viridis',
     familie: 'Birkengewächse',
