@@ -8,23 +8,14 @@
 
 const plants = [
   {
-    name: 'Alpenkreuzdorn',
-    latin: 'Rhamnus alpina',
-    familie: 'Kreuzdorngewächse',
-    famLat: 'Rhamnaceae',
-    img: ['rhamnus_alpina-infoflora.jpg', 'rhamnus_alpina-illustration.jpg'],
-    url: ['https://de.wikipedia.org/wiki/Kreuzdorn'],
-    count: 2
-  },
-  {
     name: 'Gewöhnliche Felsenbirne',
     latin: 'Amelanchier ovalis',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
     img: [
-      'amelanchier_ovalis-wiki.jpg',
+      'amelanchier_ovalis-fruits-DWE.jpg',
       'amelanchier_ovalis-illustration.jpg',
-      'amelanchier_ovalis-flowers-dwe.jpg'
+      'amelanchier_ovalis-flowers-DWE.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
     count: 15
@@ -125,18 +116,23 @@ const plants = [
     latin: 'Cornus mas',
     familie: 'Hartriegelgewächse',
     famLat: 'Cornaceae',
-    img: ['cornus_mas-wiki.jpg', 'cornus_mas-illustration.jpg'],
+    img: [
+      'cornus_mas-wiki.jpg',
+      'cornus_mas-illustration.jpg',
+      'cornus_mas-wiki2.jpg'
+    ],
     url: ['https://de.wikipedia.org/wiki/Kornelkirsche'],
     count: 20
   },
   {
-    name: 'Gewöhnliche Berberitze',
+    name: 'Gewöhnliche Berberitze / Sauerdorn',
     latin: 'Berberis vulgaris',
     familie: 'Berberitzengewächse',
     famLat: 'Berberidaceae',
     img: [
       'berberis_vulgaris-gartenlexikon.jpg',
-      'berberis_vulgaris-illustration.jpg'
+      'berberis_vulgaris-illustration.jpg',
+      'berberis_vulgaris-eggert-baumschulen.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Berberitze'],
     count: 10
@@ -172,7 +168,11 @@ const plants = [
     latin: 'Sorbus torminalis',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
-    img: ['sorbus_torminalis-wiki.jpg', 'sorbus_torminalis-illustration.jpg'],
+    img: [
+      'sorbus_torminalis-wiki.jpg',
+      'sorbus_torminalis-illustration.jpg',
+      'sorbus_torminalis-naturespot.jpg'
+    ],
     url: ['https://de.wikipedia.org/wiki/Elsbeere'],
     count: 5
   },
@@ -216,13 +216,27 @@ const plants = [
     count: 5
   },
   {
+    name: 'Alpenkreuzdorn',
+    latin: 'Rhamnus alpina',
+    familie: 'Kreuzdorngewächse',
+    famLat: 'Rhamnaceae',
+    img: [
+      'rhamnus_alpina-wiki.jpg',
+      'rhamnus_alpina-illustration.jpg',
+      'rhamnus_alpina-infoflora.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Kreuzdorn'],
+    count: 2
+  },
+  {
     name: 'Faulbaum',
     latin: 'Rhamnus frangula',
     familie: 'Kreuzdorngewächse',
     famLat: 'Rhamnaceae',
     img: [
-      'rhamnus_fragula-zdravnitza.jpg',
-      'rhamnus_frangula-illustrationjpg.jpg'
+      'rhamnus_frangula-zdravnitza.jpg',
+      'rhamnus_frangula-illustrationjpg.jpg',
+      'rhamnus_frangula-awl.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Faulbaum'],
     count: 2
@@ -232,7 +246,11 @@ const plants = [
     latin: 'Corylus avellana',
     familie: 'Birkengewächse',
     famLat: 'Betulaceae',
-    img: ['corylus_avellana-wiki.jpg', 'corylus_avellana-illustration.jpg'],
+    img: [
+      'corylus_avellana-wiki.jpg',
+      'corylus_avellana-illustration.jpg',
+      'corylus_avellana-DWE.jpg'
+    ],
     url: ['https://de.wikipedia.org/wiki/Gemeine_Hasel'],
     count: 10
   },
@@ -475,7 +493,11 @@ const plants = [
     latin: 'Rosa pendulina',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
-    img: ['rosa_pendulina-wiki.jpg', 'rosa_pendulina-illustration.jpg'],
+    img: [
+      'rosa_pendulina-pixels.jpg',
+      'rosa_pendulina-illustration.jpg',
+      'rosa_pendulina-wiki.jpg'
+    ],
     url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
     count: 1
   }
