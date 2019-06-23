@@ -1,7 +1,6 @@
 /**
  * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
- * - add clickable family names - to show all the plants from the same family (another click shows all again)
  * - sort plants (in db) by family / latin name asc
  * - show all the flowers
  * - show all the fruits

@@ -224,6 +224,19 @@ const plants = [
     count: 2
   },
   {
+    name: 'Schwarz-Erle',
+    latin: 'Alnus glutinosa',
+    familie: 'Birkengewächse',
+    famLat: 'Betulaceae',
+    img: [
+      'alnus_glutinosa-baumportal.jpg',
+      'alnus_glutinosa-illustration.jpg',
+      'alnus_glutinosa-amazon.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Schwarz-Erle'],
+    count: 2
+  },
+  {
     name: 'Gemeiner Liguster',
     latin: 'Ligustrum vulgare',
     familie: 'Ölbaumgewächse',
