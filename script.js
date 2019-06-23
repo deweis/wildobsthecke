@@ -1,5 +1,6 @@
 /**
  * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
+ * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
  * - add clickable family names - to show all the plants from the same family (another click shows all again)
  * - sort plants (in db) by family / latin name asc
  * - show all the flowers
@@ -11,6 +12,7 @@
  */
 
 let showIllustrations = 0; // Show illustrations (1) or photographs (0) as default picture
+let filtered = 0;
 
 /**************************************************************************************************
  * Add one card per entry in plants object
@@ -48,13 +50,24 @@ function showPlants() {
     cardBody.innerHTML = `
       <h4>${plants[i].latin}</h4>
       <a href="${plants[i].url}" target="_blank" rel="noopener">
-      <p class="card-text">
+      <p class="card-text mb-0">
         ${plants[i].name}</a> (${plants[i].count})<br ><br >
-        
-      ${plants[i].familie} (${plants[i].famLat})
       </p>`;
 
     card.appendChild(cardBody);
+
+    const familyName = document.createElement('div');
+    familyName.setAttribute('class', 'family-name');
+
+    familyName.innerHTML = `
+      ${plants[i].familie} (${plants[i].famLat})
+    `;
+
+    familyName.addEventListener('click', function() {
+      filterFamily(this.innerText);
+    });
+
+    cardBody.appendChild(familyName);
   }
 }
 
@@ -139,6 +152,45 @@ document
       this.blur();
     }
   });
+
+/**************************************************************************************************
+ * Filter by Family Name
+ */
+function filterFamily(fam) {
+  if (filtered === 0) filtered = 1;
+  else {
+    return removeFilter();
+  }
+
+  // Filter the plants that match the family name
+  let filteredPlants = plants
+    .filter(plant => plant.familie === fam.split(' ')[0])
+    .map(plant => generateId(plant.latin));
+
+  // Hide the plants not matching
+  document.querySelectorAll('.card').forEach(plant => {
+    filteredPlants.includes(plant.id)
+      ? plant.classList.remove('hide-plant')
+      : plant.classList.add('hide-plant');
+  });
+
+  document.querySelectorAll('.family-name').forEach(plant => {
+    plant.classList.add('fam-filtered');
+  });
+}
+
+/* Helper Function to remove the filter again*/
+function removeFilter() {
+  filtered = 0;
+
+  document.querySelectorAll('.card').forEach(plant => {
+    plant.classList.remove('hide-plant');
+  });
+
+  document.querySelectorAll('.family-name').forEach(plant => {
+    plant.classList.remove('fam-filtered');
+  });
+}
 
 /**************************************************************************************************
  * Load the page

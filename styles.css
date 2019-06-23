@@ -23,6 +23,18 @@
 .card img {
   cursor: pointer;
 }
+.family-name {
+  cursor: pointer;
+}
+.family-name:hover {
+  color: green;
+  font-weight: 500;
+}
+.fam-filtered {
+  color: green;
+  font-size: 1.1em;
+  font-weight: 500;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
