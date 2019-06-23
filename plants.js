@@ -315,6 +315,32 @@ const plants = [
     count: 1
   },
   {
+    name: 'Reif-Weide',
+    latin: 'Salix daphnoides',
+    familie: 'Weidengewächse',
+    famLat: 'Salicaceae',
+    img: [
+      'salix_daphnoides-wiki.jpg',
+      'salix_daphnoides-illustration.jpg',
+      'salix_daphnoides-infoflora.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Reif-Weide'],
+    count: 1
+  },
+  {
+    name: 'Sal-Weide',
+    latin: 'Salix caprea',
+    familie: 'Weidengewächse',
+    famLat: 'Salicaceae',
+    img: [
+      'salix_caprea-wiki.jpg',
+      'salix_caprea-illustration.jpg',
+      'salix_caprea-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Sal-Weide'],
+    count: 1
+  },
+  {
     name: 'Mispel',
     latin: 'Mespilus germanica',
     familie: 'Rosengewächse',
