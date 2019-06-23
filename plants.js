@@ -1,9 +1,9 @@
 /**
  * - Add pictures: (Format: 4:3, 500px wide)
- *    1) Leaves (Incl. flower or fruit)
+ *    1) Fruit
  *    2) Illustration (Format: 7:5, 500px wide)
  *    3) Flowers
- *    4) Fruits
+ *    4) Distribution in Switzerland - infoflora
  */
 
 const plants = [
@@ -299,6 +299,19 @@ const plants = [
       'salix_viminalis-wiki2.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Korb-Weide'],
+    count: 1
+  },
+  {
+    name: 'Purpur-Weide',
+    latin: 'Salix purpurea',
+    familie: 'Weidengewächse',
+    famLat: 'Salicaceae',
+    img: [
+      'salix_purpurea-wiki.jpg',
+      'salix_purpurea-illustration.jpg',
+      'salix_purpurea-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Purpur-Weide'],
     count: 1
   },
   {
