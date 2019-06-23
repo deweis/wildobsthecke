@@ -65,7 +65,7 @@ const plants = [
       'prunus_spinosa-illustration.jpg',
       'prunus_spinosa-wiki2.jpg'
     ],
-    url: ['https://de.wikipedia.org/wiki/Kirschpflaume'],
+    url: ['https://de.wikipedia.org/wiki/Schlehdorn'],
     count: 12
   },
   {
@@ -272,7 +272,7 @@ const plants = [
       'euonymus_europaeus-illustration.jpg',
       'euonymus_europaeus-naturespot.jpg'
     ],
-    url: ['https://de.wikipedia.org/wiki/Mispel'],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Spindelstrauch'],
     count: 10
   },
   {
@@ -348,5 +348,5 @@ const plants = [
     img: ['rosa_pendulina-wiki.jpg', 'rosa_pendulina-illustration.jpg'],
     url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
     count: 1
-  },
+  }
 ];
