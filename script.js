@@ -1,6 +1,9 @@
 /**
  * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
+ * - Add Scroll to Top functionality
+ * - Add lazy load
+ * - Add webp images
  * - sort plants (in db) by family / latin name asc
  * - show all the flowers
  * - show all the fruits

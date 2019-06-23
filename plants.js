@@ -82,6 +82,19 @@ const plants = [
     count: 2
   },
   {
+    name: 'Wolliger Schneeball',
+    latin: 'Viburnum lantana',
+    familie: 'Moschuskrautgewächse',
+    famLat: 'Adoxaceae',
+    img: [
+      'viburnum_lantana-wiki.jpg',
+      'viburnum_lantana-illustration.jpg',
+      'viburnum_lantana-wiki2.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Wolliger_Schneeball'],
+    count: 2
+  },
+  {
     name: 'Roter Holunder',
     latin: 'Sambucus racemosa',
     familie: 'Moschuskrautgewächse',
