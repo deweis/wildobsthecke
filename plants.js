@@ -3,7 +3,7 @@
  *    1) Fruit
  *    2) Illustration (Format: 7:5, 500px wide)
  *    3) Flowers
- *    4) Distribution in Switzerland - infoflora
+ *    4) Distribution in Switzerland - infoflora (2019, 50km, 4:3)
  */
 
 const plants = [
@@ -483,7 +483,8 @@ const plants = [
     img: [
       'rosa_agrestis-astrantias.jpg',
       'rosa_agrestis-illustration.jpg',
-      'rosa_agrestis-wiki.jpg'
+      'rosa_agrestis-wiki.jpg',
+      'rosa_agrestis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Acker-Rose'],
     count: 1
@@ -496,7 +497,8 @@ const plants = [
     img: [
       'rosa_pendulina-pixels.jpg',
       'rosa_pendulina-illustration.jpg',
-      'rosa_pendulina-wiki.jpg'
+      'rosa_pendulina-wiki.jpg',
+      'rosa_pendulina-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
     count: 1
@@ -509,7 +511,8 @@ const plants = [
     img: [
       'rosa_villosa-florealpes.jpg',
       'rosa_villosa-illustration.jpg',
-      'rosa_villosa-wiki.jpg'
+      'rosa_villosa-wiki.jpg',
+      'rosa_villosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Apfel-Rose'],
     count: 1
