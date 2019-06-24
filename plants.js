@@ -500,5 +500,18 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
     count: 1
+  },
+  {
+    name: 'Apfel-Rose',
+    latin: 'Rosa villosa',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'rosa_villosa-florealpes.jpg',
+      'rosa_villosa-illustration.jpg',
+      'rosa_villosa-wiki.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Apfel-Rose'],
+    count: 1
   }
 ];
