@@ -1,7 +1,6 @@
 /**
  * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
- * - Add Scroll to Top functionality
  * - Add lazy load
  * - Add webp images
  * - sort plants (in db) by family / latin name asc
@@ -206,6 +205,30 @@ function removeFilter() {
     plant.classList.remove('fam-filtered');
   });
 }
+
+/**************************************************************************************************
+ * Scroll to Top Button - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+ */
+
+// When the user scrolls down 20px from the top of the document, show the button
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.querySelector('#btnScrollTop').style.display = 'block';
+  } else {
+    document.querySelector('#btnScrollTop').style.display = 'none';
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+document.querySelector('#btnScrollTop').addEventListener('click', () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
+
+// Listen for scrolls
+window.onscroll = function() {
+  scrollFunction();
+};
 
 /**************************************************************************************************
  * Load the page
