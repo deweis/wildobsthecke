@@ -386,13 +386,14 @@ const plants = [
   },
   {
     name: 'Pfaffenhütchen', // Gewöhnlicher Spindelstrauch
-    latin: 'Euonymus europea',
+    latin: 'Euonymus europaeus',
     familie: 'Spindelbaumgewächse',
     famLat: 'Celastraceae',
     img: [
       'euonymus_europaeus-eggert-baumschulen.jpg',
       'euonymus_europaeus-illustration.jpg',
-      'euonymus_europaeus-naturespot.jpg'
+      'euonymus_europaeus-naturespot.jpg',
+      'euonymus_europaeus-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Spindelstrauch'],
     count: 10
@@ -405,7 +406,8 @@ const plants = [
     img: [
       'hippophae_rhamnoides-wiki.jpg',
       'hippophae_rhamnoides-illustration.jpg',
-      'hippophae_rhamnoides-wiki2.jpg'
+      'hippophae_rhamnoides-wiki2.jpg',
+      'hippophae_rhamnoides-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Sanddorn'],
     count: 10
@@ -418,7 +420,8 @@ const plants = [
     img: [
       'clematis_vitalba-first-nature.jpg',
       'clematis_vitalba-illustration.jpg',
-      'clematis_vitalba-wiki2.jpg'
+      'clematis_vitalba-wiki2.jpg',
+      'clematis_vitalba-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Waldrebe'],
     count: 5
@@ -431,7 +434,8 @@ const plants = [
     img: [
       'lonicera_xylosteum-wiki.jpg',
       'lonicera_xylosteum-illustration.jpg',
-      'lonicera_xylosteum-wiki2.jpg'
+      'lonicera_xylosteum-wiki2.jpg',
+      'lonicera_xylosteum-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Rote_Heckenkirsche'],
     count: 2
@@ -444,7 +448,8 @@ const plants = [
     img: [
       'lonicera_nigra-wiki.jpg',
       'lonicera_nigra-illustration.jpg',
-      'lonicera_nigra-wiki2.jpg'
+      'lonicera_nigra-wiki2.jpg',
+      'lonicera_nigra-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarze_Heckenkirsche'],
     count: 2
@@ -457,7 +462,8 @@ const plants = [
     img: [
       'malus_sylvestris-euforgen.jpg',
       'malus_sylvestris-illustration.jpg',
-      'malus_sylvestris-euforgen2.jpg'
+      'malus_sylvestris-euforgen2.jpg',
+      'malus_sylvestris-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Holzapfel'],
     count: 3
@@ -470,7 +476,8 @@ const plants = [
     img: [
       'pyrus_pyraster-antropocene.jpg',
       'pyrus_pyraster-illustration.jpg',
-      'pyrus_pyraster-fotocommunity.jpg'
+      'pyrus_pyraster-fotocommunity.jpg',
+      'pyrus_pyraster-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Wildbirne'],
     count: 3
