@@ -1,5 +1,4 @@
 /**
- * - Fix: Switching from Illustrations shows 3rd picture instead of 1st
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
  * - Add lazy load
  * - Add webp images
@@ -98,7 +97,7 @@ function nextImage(plantId, imageDiv, indexImage) {
 
   let nextImg = thePlantImages.findIndex(x => x === imgName); // get the next image from the plants images
 
-  if (indexImage) {
+  if (indexImage === 1 || indexImage === 0) {
     nextImg = indexImage;
   } else {
     nextImg = nextImg === thePlantImages.length - 1 ? 0 : nextImg + 1; // start from the first again if at last
