@@ -236,7 +236,8 @@ const plants = [
     img: [
       'rhamnus_frangula-zdravnitza.jpg',
       'rhamnus_frangula-illustrationjpg.jpg',
-      'rhamnus_frangula-awl.jpg'
+      'rhamnus_frangula-awl.jpg',
+      'rhamnus_frangula-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Faulbaum'],
     count: 2
@@ -249,7 +250,8 @@ const plants = [
     img: [
       'corylus_avellana-wiki.jpg',
       'corylus_avellana-illustration.jpg',
-      'corylus_avellana-DWE.jpg'
+      'corylus_avellana-DWE.jpg',
+      'corylus_avellana-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gemeine_Hasel'],
     count: 10
@@ -262,7 +264,8 @@ const plants = [
     img: [
       'alnus_incana-wiki.jpg',
       'alnus_incana-illustration.jpg',
-      'alnus_incana-rhs.jpg'
+      'alnus_incana-rhs.jpg',
+      'alnus_incana-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Grau-Erle'],
     count: 2
@@ -275,7 +278,8 @@ const plants = [
     img: [
       'alnus_viridis-wiki.jpg',
       'alnus_viridis-illustration.jpg',
-      'alnus_viridis-infoflora.jpg'
+      'alnus_viridis-infoflora.jpg',
+      'alnus_viridis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gr%C3%BCn-Erle'],
     count: 2
@@ -288,7 +292,8 @@ const plants = [
     img: [
       'alnus_glutinosa-baumportal.jpg',
       'alnus_glutinosa-illustration.jpg',
-      'alnus_glutinosa-amazon.jpg'
+      'alnus_glutinosa-amazon.jpg',
+      'alnus_glutinosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarz-Erle'],
     count: 2
@@ -301,7 +306,8 @@ const plants = [
     img: [
       'ligustrum_vulgare-treeseedonline.jpg',
       'ligustrum_vulgare-illustration.jpg',
-      'ligustrum_vulgare-wiki2.jpg'
+      'ligustrum_vulgare-wiki2.jpg',
+      'ligustrum_vulgare-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster'],
     count: 2
@@ -314,7 +320,8 @@ const plants = [
     img: [
       'salix_viminalis-wiki.jpg',
       'salix_viminalis-illustration.jpg',
-      'salix_viminalis-wiki2.jpg'
+      'salix_viminalis-wiki2.jpg',
+      'salix_viminalis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Korb-Weide'],
     count: 1
@@ -327,7 +334,8 @@ const plants = [
     img: [
       'salix_purpurea-wiki.jpg',
       'salix_purpurea-illustration.jpg',
-      'salix_purpurea-wiki2.jpg'
+      'salix_purpurea-wiki2.jpg',
+      'salix_purpurea-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Purpur-Weide'],
     count: 1
@@ -340,7 +348,8 @@ const plants = [
     img: [
       'salix_daphnoides-wiki.jpg',
       'salix_daphnoides-illustration.jpg',
-      'salix_daphnoides-infoflora.jpg'
+      'salix_daphnoides-infoflora.jpg',
+      'salix_daphnoides-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Reif-Weide'],
     count: 1
@@ -353,7 +362,8 @@ const plants = [
     img: [
       'salix_caprea-wiki.jpg',
       'salix_caprea-illustration.jpg',
-      'salix_caprea-wiki2.jpg'
+      'salix_caprea-wiki2.jpg',
+      'salix_caprea-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Sal-Weide'],
     count: 1
@@ -366,7 +376,8 @@ const plants = [
     img: [
       'salix_nigricans-futureplanter.jpg',
       'salix_nigricans-illustration.jpg',
-      'salix_nigricans-wiki2.jpg'
+      'salix_nigricans-wiki2.jpg',
+      'salix_nigricans-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarz-Weide'],
     count: 1
@@ -379,7 +390,8 @@ const plants = [
     img: [
       'mespilus_germanica-wiki.jpg',
       'mespilus_germanica-illustration.jpg',
-      'mespilus_germanica-wiki2.jpg'
+      'mespilus_germanica-wiki2.jpg',
+      'mespilus_germanica-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Mispel'],
     count: 10
