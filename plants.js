@@ -29,7 +29,8 @@ const plants = [
     img: [
       'prunus_mahaleb-wiki.jpg',
       'prunus_mahaleb-illustration.jpg',
-      'prunus_mahaleb-wiki2.jpg'
+      'prunus_mahaleb-wiki2.jpg',
+      'prunus_mahaleb-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Steinweichsel'],
     count: 3
@@ -112,7 +113,8 @@ const plants = [
     img: [
       'sambucus_nigra-baumschule-2000.jpg',
       'sambucus_nigra-illustration.jpg',
-      'sambucus_nigra-pflanzenbestimmung.jpg'
+      'sambucus_nigra-pflanzenbestimmung.jpg',
+      'sambucus_nigra-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarzer_Holunder'],
     count: 2
@@ -125,7 +127,8 @@ const plants = [
     img: [
       'cornus_mas-wiki.jpg',
       'cornus_mas-illustration.jpg',
-      'cornus_mas-wiki2.jpg'
+      'cornus_mas-wiki2.jpg',
+      'cornus_mas-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Kornelkirsche'],
     count: 20
@@ -138,7 +141,8 @@ const plants = [
     img: [
       'berberis_vulgaris-gartenlexikon.jpg',
       'berberis_vulgaris-illustration.jpg',
-      'berberis_vulgaris-eggert-baumschulen.jpg'
+      'berberis_vulgaris-eggert-baumschulen.jpg',
+      'berberis_vulgaris-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Berberitze'],
     count: 10
@@ -151,7 +155,8 @@ const plants = [
     img: [
       'crataegus_monogyna-futureforests.jpg',
       'crataegus_monogyna-illustration.jpg',
-      'crataegus_monogyna-wiki2.jpg'
+      'crataegus_monogyna-wiki2.jpg',
+      'crataegus_monogyna-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn'],
     count: 12
@@ -164,7 +169,8 @@ const plants = [
     img: [
       'crataegus_laevigata-freenatureimages.jpg',
       'crataegus_laevigata-illustration.jpg',
-      'crataegus_laevigata-freenatureimages2.jpg'
+      'crataegus_laevigata-freenatureimages2.jpg',
+      'crataegus_laevigata-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Zweigriffeliger_Wei%C3%9Fdorn'],
     count: 2
@@ -177,7 +183,8 @@ const plants = [
     img: [
       'sorbus_torminalis-wiki.jpg',
       'sorbus_torminalis-illustration.jpg',
-      'sorbus_torminalis-naturespot.jpg'
+      'sorbus_torminalis-naturespot.jpg',
+      'sorbus_torminalis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Elsbeere'],
     count: 5
@@ -190,7 +197,8 @@ const plants = [
     img: [
       'sorbus_aria-wiki.jpg',
       'sorbus_aria-illustration.jpg',
-      'sorbus_aria-baumschule-horstmann.jpg'
+      'sorbus_aria-baumschule-horstmann.jpg',
+      'sorbus_aria-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Echte_Mehlbeere'],
     count: 5
@@ -203,7 +211,8 @@ const plants = [
     img: [
       'sorbus_aucuparia-wiki.jpg',
       'sorbus_aucuparia-illustration.jpg',
-      'sorbus_aucuparia-wiki2.jpg'
+      'sorbus_aucuparia-wiki2.jpg',
+      'sorbus_aucuparia-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Vogelbeere'],
     count: 5
@@ -216,7 +225,8 @@ const plants = [
     img: [
       'sorbus_domestica-wiki.jpg',
       'sorbus_domestica-illustration.jpg',
-      'sorbus_domestica-wiki2.jpg'
+      'sorbus_domestica-wiki2.jpg',
+      'sorbus_domestica-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Speierling'],
     count: 5
@@ -229,7 +239,8 @@ const plants = [
     img: [
       'rhamnus_alpina-wiki.jpg',
       'rhamnus_alpina-illustration.jpg',
-      'rhamnus_alpina-infoflora.jpg'
+      'rhamnus_alpina-infoflora.jpg',
+      'rhamnus_alpina-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Kreuzdorn'],
     count: 2
