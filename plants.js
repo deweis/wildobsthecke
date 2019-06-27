@@ -15,7 +15,8 @@ const plants = [
     img: [
       'amelanchier_ovalis-fruits-DWE.jpg',
       'amelanchier_ovalis-illustration.jpg',
-      'amelanchier_ovalis-flowers-DWE.jpg'
+      'amelanchier_ovalis-flowers-DWE.jpg',
+      'amelanchier_ovalis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
     count: 15
@@ -41,7 +42,8 @@ const plants = [
     img: [
       'prunus_cerasifera-wiki.jpg',
       'prunus_cerasifera-illustration.jpg',
-      'prunus_cerasifera-wiki2.jpg'
+      'prunus_cerasifera-wiki2.jpg',
+      'prunus_cerasifera-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Kirschpflaume'],
     count: 3
@@ -54,7 +56,8 @@ const plants = [
     img: [
       'prunus_spinosa-pixabay.jpg',
       'prunus_spinosa-illustration.jpg',
-      'prunus_spinosa-wiki2.jpg'
+      'prunus_spinosa-wiki2.jpg',
+      'prunus_spinosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schlehdorn'],
     count: 12
@@ -67,7 +70,8 @@ const plants = [
     img: [
       'viburnum_opulus-wiki.jpg',
       'viburnum_opulus-illustration.jpg',
-      'viburnum_opulus-wiki2.jpg'
+      'viburnum_opulus-wiki2.jpg',
+      'viburnum_opulus-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Schneeball'],
     count: 2
@@ -80,7 +84,8 @@ const plants = [
     img: [
       'viburnum_lantana-wiki.jpg',
       'viburnum_lantana-illustration.jpg',
-      'viburnum_lantana-wiki2.jpg'
+      'viburnum_lantana-wiki2.jpg',
+      'viburnum_lantana-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Wolliger_Schneeball'],
     count: 2
@@ -93,7 +98,8 @@ const plants = [
     img: [
       'sambucus_racemosa-jerseyyards.jpg',
       'sambucus_racemosa-illustration.jpg',
-      'sambucus_racemosa-wildseedproject.jpg'
+      'sambucus_racemosa-wildseedproject.jpg',
+      'sambucus_racemosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Roter_Holunder'],
     count: 2
