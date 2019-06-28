@@ -1,9 +1,10 @@
 /**
+ * - BTN Show all Flowers (Blume)
+ * - BTN Show all Distributions (CH Umriss)
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
  * - Add lazy load
  * - Add webp images
  * - sort plants (in db) by family / latin name asc
- * - show all the flowers
  * - show all the fruits
  * - show all the leaves
  * - add wiki icon and make it the link to wikipedia
