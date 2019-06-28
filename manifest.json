@@ -1,0 +1,20 @@
+{
+  "short_name": "wildObst",
+  "name": "Pflanzen - Wildobsthecke",
+  "icons": [
+    {
+      "src": "/img/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://dvice.ch/wildobsthecke/index.html",
+  "background_color": "#fff",
+  "display": "standalone",
+  "theme_color": "#f8f9fa"
+}
