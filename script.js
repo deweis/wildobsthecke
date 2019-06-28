@@ -1,9 +1,9 @@
 /**
+ * - Add webp images (and adjust lazy load accordingly)
+ * - Check contrast ratio on URLs and adjust until lighthouse is happy
  * - BTN Show all Flowers (Blume)
  * - BTN Show all Distributions (CH Umriss)
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
- * - Add lazy load
- * - Add webp images
  * - sort plants (in db) by family / latin name asc
  * - show all the fruits
  * - show all the leaves
@@ -50,7 +50,9 @@ function showPlants() {
     cardBody.setAttribute('class', 'card-body');
     cardBody.innerHTML = `
       <h4>${plants[i].latin}</h4>
-      <a href="${plants[i].url}" target="_blank" rel="noopener">
+      <a href="${plants[i].url}" target="_blank" rel="noopener" aria-label="${
+      plants[i].name
+    } auf Wikipedia anschauen">
       <p class="card-text mb-0">
         ${plants[i].name}</a> (${plants[i].count})<br ><br >
       </p>`;
