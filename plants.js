@@ -552,5 +552,19 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Apfel-Rose'],
     count: 1
+  },
+  {
+    name: 'Bereifte Rose',
+    latin: 'Rosa glauca',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'rosa_glauca-davidaustinroses.jpg',
+      'rosa_glauca-illustration.jpg',
+      'rosa_glauca-flowerwalks.jpg',
+      'rosa_glauca-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Rotblatt-Rose'],
+    count: 1
   }
 ];
