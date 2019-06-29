@@ -134,6 +134,20 @@ const plants = [
     count: 20
   },
   {
+    name: 'Roter Hartriegel',
+    latin: 'Cornus sanguinea',
+    familie: 'Hartriegelgewächse',
+    famLat: 'Cornaceae',
+    img: [
+      'cornus_sanguinea-naturespot.jpg',
+      'cornus_sanguinea-illustration.jpg',
+      'cornus_sanguinea-bob-gibbons.jpg',
+      'cornus_sanguinea-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Roter_Hartriegel'],
+    count: 0
+  },
+  {
     name: 'Gewöhnliche Berberitze / Sauerdorn',
     latin: 'Berberis vulgaris',
     familie: 'Berberitzengewächse',
