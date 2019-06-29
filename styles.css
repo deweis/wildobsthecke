@@ -3,14 +3,23 @@ html {
 }
 .navbar {
   border-radius: 0 0 5px 5px;
+  padding: 0.5rem 0.1rem;
+}
+.filter-btns {
+  width: 50%;
+  min-width: 147px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
 }
 .btn-illustrations {
   background: white;
   color: black;
+  margin: 0 3px;
 }
 .plant-search {
-  width: 75%;
-  flex-flow: nowrap;
+  width: 100%;
+  margin: 10px 3px;
 }
 .container {
   margin-top: 0.8em;
@@ -61,8 +70,21 @@ html {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+/* Small devices */
+@media (min-width: 360px) {
+ .plant-search {
+  width: 48%;
+  min-width: 146px;
+} 
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  .btn-illustrations {
+    margin: 0 7px;
+  }
   .card-columns {
     column-count: 2;
   }
