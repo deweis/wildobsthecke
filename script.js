@@ -12,8 +12,8 @@
  *   resp. button to show the respective picture according to what they do now...
  */
 
-let showIllustrations = 0; // Show illustrations (1) or photographs (0) as default picture
-let filtered = 0;
+let picture = 0; // 0 (default), 1 (illustrations), 2 (flowers), 3 (sightings)
+let filtered = 0; // search plants / filter by family name
 
 /**************************************************************************************************
  * Add one card per entry in plants object
@@ -32,7 +32,7 @@ function showPlants() {
      * Add the image
      */
     const cardImage = document.createElement('img');
-    cardImage.setAttribute('src', `img/${plants[i].img[showIllustrations]}`);
+    cardImage.setAttribute('src', `img/${plants[i].img[picture]}`);
     cardImage.setAttribute('class', 'card-img-top');
     cardImage.setAttribute('alt', `${plants[i].latin}`);
 
@@ -77,7 +77,6 @@ function showPlants() {
 /**************************************************************************************************
  * Helper Function to generate an ID based on the plants latin name
  */
-
 function generateId(str) {
   let res = str
     .toLowerCase()
@@ -100,13 +99,12 @@ function nextImage(plantId, imageDiv, indexImage) {
 
   let nextImg = thePlantImages.findIndex(x => x === imgName); // get the next image from the plants images
 
-  if (indexImage === 1 || indexImage === 0) {
-    nextImg = indexImage;
+  if (indexImage >= 0) {
+    return (imageDiv.src = `img/${thePlantImages[indexImage]}`);
   } else {
     nextImg = nextImg === thePlantImages.length - 1 ? 0 : nextImg + 1; // start from the first again if at last
+    return (imageDiv.src = `img/${thePlantImages[nextImg]}`);
   }
-
-  return (imageDiv.src = `img/${thePlantImages[nextImg]}`);
 }
 
 /**************************************************************************************************
@@ -115,13 +113,35 @@ function nextImage(plantId, imageDiv, indexImage) {
 document
   .querySelector('.btn-illustrations')
   .addEventListener('click', function() {
-    showIllustrations = showIllustrations === 0 ? 1 : 0; // Change default of picture type shown
-    const imageNodes = document.querySelectorAll('.card-img-top');
-
-    imageNodes.forEach(node => {
-      nextImage(node.parentNode.id, node, showIllustrations);
-    });
+    setPicture(1);
   });
+
+/**************************************************************************************************
+ * Change Pictures to flowers and vice versa upon title click
+ */
+document.querySelector('.btn-flowers').addEventListener('click', function() {
+  setPicture(2);
+});
+
+/**************************************************************************************************
+ * Change Pictures to sightings and vice versa upon title click
+ */
+document.querySelector('.btn-sightings').addEventListener('click', function() {
+  setPicture(3);
+});
+
+/**************************************************************************************************
+ * Helper function to select the picture to be shown based on button clicks
+ */
+function setPicture(picIndex) {
+  picture = picture !== picIndex ? picIndex : 0;
+
+  const imageNodes = document.querySelectorAll('.card-img-top');
+
+  imageNodes.forEach(node => {
+    nextImage(node.parentNode.id, node, picture);
+  });
+}
 
 /**************************************************************************************************
  * The Plant Search
