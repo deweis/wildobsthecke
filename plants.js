@@ -580,5 +580,19 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Rotblatt-Rose'],
     count: 1
+  },
+  {
+    name: 'Hunds-Rose',
+    latin: 'Rosa canina',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'rosa_canina-wiki.jpg',
+      'rosa_canina-illustration.jpg',
+      'rosa_canina-baumschule-horstmann.jpg',
+      'rosa_canina-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Hunds-Rose'],
+    count: 1
   }
 ];

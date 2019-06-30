@@ -1,8 +1,7 @@
 /**
+ * - Add coloring to respective selected picture button
  * - Add webp images (and adjust lazy load accordingly)
  * - Check contrast ratio on URLs and adjust until lighthouse is happy
- * - BTN Show all Flowers (Blume)
- * - BTN Show all Distributions (CH Umriss)
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
  * - sort plants (in db) by family / latin name asc
  * - show all the fruits
