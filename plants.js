@@ -24,6 +24,20 @@ const plants = [
     count: 15
   },
   {
+    name: 'Kupfer-Felsenbirne',
+    latin: 'Amelanchier lamarckii',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'amelanchier_lamarckii-wiki.jpg',
+      'amelanchier_lamarckii-illustration.jpg',
+      'amelanchier_lamarckii-wiki2.jpg',
+      'amelanchier_lamarckii-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Kupfer-Felsenbirne'],
+    count: 0
+  },
+  {
     name: 'Felsenkirsche',
     latin: 'Prunus mahaleb',
     familie: 'Rosengewächse',
