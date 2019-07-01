@@ -1,5 +1,4 @@
 /**
- * - Add coloring to respective selected picture button
  * - Add webp images (and adjust lazy load accordingly)
  * - Check contrast ratio on URLs and adjust until lighthouse is happy
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
@@ -107,31 +106,38 @@ function nextImage(plantId, imageDiv, indexImage) {
 }
 
 /**************************************************************************************************
- * Change Pictures to illustrations and vice versa upon title click
+ * Change Pictures upon button clicks
  */
+
+/* Show all plant illustrations */
 document
   .querySelector('.btn-illustrations')
   .addEventListener('click', function() {
+    setBtnBackground(this, 1);
     setPicture(1);
   });
 
-/**************************************************************************************************
- * Change Pictures to flowers and vice versa upon title click
- */
+/* Show all plant flowers */
 document.querySelector('.btn-flowers').addEventListener('click', function() {
+  setBtnBackground(this, 2);
   setPicture(2);
 });
 
-/**************************************************************************************************
- * Change Pictures to sightings and vice versa upon title click
- */
+/* Show all plant sightings in Switzerland */
 document.querySelector('.btn-sightings').addEventListener('click', function() {
+  setBtnBackground(this, 3);
   setPicture(3);
 });
 
-/**************************************************************************************************
- * Helper function to select the picture to be shown based on button clicks
- */
+/* Helper function to change button background upon click */
+function setBtnBackground(btnNode, picCategory) {
+  document
+    .querySelectorAll('.btn-filter')
+    .forEach(node => node.classList.remove('btn-selected'));
+  if (picture !== picCategory) btnNode.classList.add('btn-selected');
+}
+
+/* Helper function to select the picture to be shown based on button clicks */
 function setPicture(picIndex) {
   picture = picture !== picIndex ? picIndex : 0;
 

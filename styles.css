@@ -17,6 +17,18 @@ html {
   color: black;
   margin: 0 3px;
 }
+.btn-filter:hover {
+  background: #80cbc4; /* teal lighten-3 */
+  color: white;
+}
+.btn-filter:focus {
+  background: white;
+  color: black;
+}
+.btn-selected {
+  color: white !important;
+  background: #009688 !important; /* teal */
+}
 .plant-search {
   width: 100%;
   margin: 10px 3px;
@@ -72,10 +84,11 @@ html {
 
 /* Small devices */
 @media (min-width: 360px) {
- .plant-search {
-  width: 48%;
-  min-width: 146px;
-} 
+  .plant-search {
+    width: 48%;
+    min-width: 146px;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

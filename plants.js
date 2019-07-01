@@ -4,6 +4,8 @@
  *    2) Illustration (Format: 7:5, 500px wide)
  *    3) Flowers
  *    4) Distribution in Switzerland - infoflora (2019, 50km, 4:3)
+ * 
+ * - Add Fruits from Pavel: https://www.albisboden.ch/PDF/Essbares_Wildobst.pdf
  */
 
 const plants = [
