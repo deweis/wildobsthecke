@@ -4,7 +4,7 @@
  *    2) Illustration (Format: 7:5, 500px wide)
  *    3) Flowers
  *    4) Distribution in Switzerland - infoflora (2019, 50km, 4:3)
- * 
+ *
  * - Add Fruits from Pavel: https://www.albisboden.ch/PDF/Essbares_Wildobst.pdf
  */
 
@@ -595,6 +595,20 @@ const plants = [
       'rosa_canina-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Hunds-Rose'],
+    count: 1
+  },
+  {
+    name: 'Busch-Rose',
+    latin: 'Rosa corymbifera',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'rosa_corymbifera-i-flora.jpg',
+      'rosa_corymbifera-illustration.jpg',
+      'rosa_corymbifera-i-flora2.jpg',
+      'rosa_corymbifera-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Hecken-Rose'],
     count: 1
   }
 ];
