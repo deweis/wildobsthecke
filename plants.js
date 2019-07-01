@@ -598,7 +598,7 @@ const plants = [
     count: 1
   },
   {
-    name: 'Hunds-Rose',
+    name: 'Hunds-Rose (Hecken-Rose)',
     latin: 'Rosa canina',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
@@ -612,7 +612,7 @@ const plants = [
     count: 1
   },
   {
-    name: 'Busch-Rose',
+    name: 'Busch-Rose (Hecken-Rose)',
     latin: 'Rosa corymbifera',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
