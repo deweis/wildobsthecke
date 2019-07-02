@@ -1,9 +1,9 @@
 /**
+ * - Fix coloring on mobile (I.e. still hover color after 2nd click - should be white again.. )
  * - Add webp images (and adjust lazy load accordingly)
  * - Check contrast ratio on URLs and adjust until lighthouse is happy
  * - Create helper function to filter plants and remove the duplicate from search/famNameFilter
  * - sort plants (in db) by family / latin name asc
- * - show all the fruits
  * - show all the leaves
  * - add wiki icon and make it the link to wikipedia
  * - add info on flowering/fruiting to the data and show the plants accordingly to what they do in the current month
@@ -57,6 +57,7 @@ function showPlants() {
 
     card.appendChild(cardBody);
 
+    /* The Family Name */
     const familyName = document.createElement('div');
     familyName.setAttribute('class', 'family-name');
 
@@ -69,6 +70,17 @@ function showPlants() {
     });
 
     cardBody.appendChild(familyName);
+
+    /* Flowering */
+    const floweringMonths = document.createElement('div');
+    floweringMonths.setAttribute('class', 'flowering hide');
+
+    floweringMonths.innerHTML = `<i class="fas fa-sun"></i> - ${formatMonths(
+      'flowering-month',
+      plants[i]['flowering']
+    )}`;
+
+    cardBody.appendChild(floweringMonths);
   }
 }
 
@@ -106,6 +118,19 @@ function nextImage(plantId, imageDiv, indexImage) {
 }
 
 /**************************************************************************************************
+ * Helper Function to format the months according to the plant properties
+ */
+function formatMonths(addClass, theMonths) {
+  const months = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+  let arrMonths = months.map((x, i) =>
+    theMonths.includes(i + 1)
+      ? `<span class="${addClass}">${x}&nbsp;</span>`
+      : `${x}&nbsp;`
+  );
+  return arrMonths.join('');
+}
+
+/**************************************************************************************************
  * Change Pictures upon button clicks
  */
 
@@ -115,18 +140,21 @@ document
   .addEventListener('click', function() {
     setBtnBackground(this, 1);
     setPicture(1);
+    setInfo();
   });
 
 /* Show all plant flowers */
 document.querySelector('.btn-flowers').addEventListener('click', function() {
   setBtnBackground(this, 2);
   setPicture(2);
+  setInfo();
 });
 
 /* Show all plant sightings in Switzerland */
 document.querySelector('.btn-sightings').addEventListener('click', function() {
   setBtnBackground(this, 3);
   setPicture(3);
+  setInfo();
 });
 
 /* Helper function to change button background upon click */
@@ -145,6 +173,14 @@ function setPicture(picIndex) {
 
   imageNodes.forEach(node => {
     nextImage(node.parentNode.id, node, picture);
+  });
+}
+
+/* Helper function to show specific info on the card */
+function setInfo() {
+  // Show flowering months
+  document.querySelectorAll('.flowering').forEach(div => {
+    picture === 2 ? div.classList.remove('hide') : div.classList.add('hide');
   });
 }
 
@@ -171,8 +207,8 @@ function showSearchResults(plantName) {
   // Hide the plants not matching
   document.querySelectorAll('.card').forEach(plant => {
     filteredPlants.includes(plant.id)
-      ? plant.classList.remove('hide-plant')
-      : plant.classList.add('hide-plant');
+      ? plant.classList.remove('hide')
+      : plant.classList.add('hide');
   });
 }
 
@@ -211,8 +247,8 @@ function filterFamily(fam) {
   // Hide the plants not matching
   document.querySelectorAll('.card').forEach(plant => {
     filteredPlants.includes(plant.id)
-      ? plant.classList.remove('hide-plant')
-      : plant.classList.add('hide-plant');
+      ? plant.classList.remove('hide')
+      : plant.classList.add('hide');
   });
 
   document.querySelectorAll('.family-name').forEach(plant => {
@@ -225,7 +261,7 @@ function removeFilter() {
   filtered = 0;
 
   document.querySelectorAll('.card').forEach(plant => {
-    plant.classList.remove('hide-plant');
+    plant.classList.remove('hide');
   });
 
   document.querySelectorAll('.family-name').forEach(plant => {

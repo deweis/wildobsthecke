@@ -6,6 +6,8 @@
  *    4) Distribution in Switzerland - infoflora (2019, 50km, 4:3)
  *
  * - Add Fruits from Pavel: https://www.albisboden.ch/PDF/Essbares_Wildobst.pdf
+ *
+ * - Main Data from https://www.infoflora.ch and pics from wiki
  */
 
 const plants = [
@@ -21,7 +23,8 @@ const plants = [
       'amelanchier_ovalis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Felsenbirne'],
-    count: 15
+    count: 15,
+    flowering: [4, 5]
   },
   {
     name: 'Kupfer-Felsenbirne',
@@ -35,7 +38,8 @@ const plants = [
       'amelanchier_lamarckii-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Kupfer-Felsenbirne'],
-    count: 0
+    count: 0,
+    flowering: [4, 5]
   },
   {
     name: 'Felsenkirsche',
@@ -49,7 +53,8 @@ const plants = [
       'prunus_mahaleb-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Steinweichsel'],
-    count: 3
+    count: 3,
+    flowering: [4, 5]
   },
   {
     name: 'Kirschpflaume',
@@ -63,7 +68,8 @@ const plants = [
       'prunus_cerasifera-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Kirschpflaume'],
-    count: 3
+    count: 3,
+    flowering: [3, 4]
   },
   {
     name: 'Schwarzdorn / Schlehdorn',
@@ -77,7 +83,8 @@ const plants = [
       'prunus_spinosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schlehdorn'],
-    count: 12
+    count: 12,
+    flowering: [4]
   },
   {
     name: 'Gemeiner Schneeball',
@@ -91,7 +98,8 @@ const plants = [
       'viburnum_opulus-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Schneeball'],
-    count: 2
+    count: 2,
+    flowering: [5, 6]
   },
   {
     name: 'Wolliger Schneeball',
@@ -105,7 +113,8 @@ const plants = [
       'viburnum_lantana-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Wolliger_Schneeball'],
-    count: 2
+    count: 2,
+    flowering: [5]
   },
   {
     name: 'Roter Holunder',
@@ -119,7 +128,8 @@ const plants = [
       'sambucus_racemosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Roter_Holunder'],
-    count: 2
+    count: 2,
+    flowering: [4, 5]
   },
   {
     name: 'Schwarzer Holunder',
@@ -133,7 +143,8 @@ const plants = [
       'sambucus_nigra-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarzer_Holunder'],
-    count: 2
+    count: 2,
+    flowering: [5, 6]
   },
   {
     name: 'Kornelkirsche',
@@ -147,7 +158,8 @@ const plants = [
       'cornus_mas-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Kornelkirsche'],
-    count: 20
+    count: 20,
+    flowering: [3]
   },
   {
     name: 'Roter Hartriegel',
@@ -161,7 +173,8 @@ const plants = [
       'cornus_sanguinea-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Roter_Hartriegel'],
-    count: 0
+    count: 0,
+    flowering: [5]
   },
   {
     name: 'Gewöhnliche Berberitze / Sauerdorn',
@@ -175,7 +188,8 @@ const plants = [
       'berberis_vulgaris-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Berberitze'],
-    count: 10
+    count: 10,
+    flowering: [5, 6]
   },
   {
     name: 'Eingriffeliger Weissdorn',
@@ -189,7 +203,8 @@ const plants = [
       'crataegus_monogyna-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn'],
-    count: 12
+    count: 12,
+    flowering: [5, 6]
   },
   {
     name: 'Zweigriffeliger Weissdorn',
@@ -203,7 +218,8 @@ const plants = [
       'crataegus_laevigata-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Zweigriffeliger_Wei%C3%9Fdorn'],
-    count: 2
+    count: 2,
+    flowering: [4, 5]
   },
   {
     name: 'Elsbeere',
@@ -217,7 +233,8 @@ const plants = [
       'sorbus_torminalis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Elsbeere'],
-    count: 5
+    count: 5,
+    flowering: [5]
   },
   {
     name: 'Mehlbeere',
@@ -231,7 +248,8 @@ const plants = [
       'sorbus_aria-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Echte_Mehlbeere'],
-    count: 5
+    count: 5,
+    flowering: [5]
   },
   {
     name: 'Vogelbeere',
@@ -245,7 +263,8 @@ const plants = [
       'sorbus_aucuparia-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Vogelbeere'],
-    count: 5
+    count: 5,
+    flowering: [5, 6]
   },
   {
     name: 'Speierling',
@@ -259,7 +278,8 @@ const plants = [
       'sorbus_domestica-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Speierling'],
-    count: 5
+    count: 5,
+    flowering: [5, 6, 7]
   },
   {
     name: 'Alpenkreuzdorn',
@@ -273,7 +293,8 @@ const plants = [
       'rhamnus_alpina-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Kreuzdorn'],
-    count: 2
+    count: 2,
+    flowering: [5, 6]
   },
   {
     name: 'Faulbaum',
@@ -287,7 +308,8 @@ const plants = [
       'rhamnus_frangula-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Faulbaum'],
-    count: 2
+    count: 2,
+    flowering: []
   },
   {
     name: 'Gemeine Hasel',
@@ -301,7 +323,8 @@ const plants = [
       'corylus_avellana-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gemeine_Hasel'],
-    count: 10
+    count: 10,
+    flowering: []
   },
   {
     name: 'Grau- / Weiss-Erle',
@@ -315,7 +338,8 @@ const plants = [
       'alnus_incana-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Grau-Erle'],
-    count: 2
+    count: 2,
+    flowering: []
   },
   {
     name: 'Grün-Erle',
@@ -329,7 +353,8 @@ const plants = [
       'alnus_viridis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gr%C3%BCn-Erle'],
-    count: 2
+    count: 2,
+    flowering: []
   },
   {
     name: 'Schwarz-Erle',
@@ -343,7 +368,8 @@ const plants = [
       'alnus_glutinosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarz-Erle'],
-    count: 2
+    count: 2,
+    flowering: []
   },
   {
     name: 'Gemeiner Liguster',
@@ -357,7 +383,8 @@ const plants = [
       'ligustrum_vulgare-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster'],
-    count: 2
+    count: 2,
+    flowering: []
   },
   {
     name: 'Korb-Weide',
@@ -371,7 +398,8 @@ const plants = [
       'salix_viminalis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Korb-Weide'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Purpur-Weide',
@@ -385,7 +413,8 @@ const plants = [
       'salix_purpurea-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Purpur-Weide'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Reif-Weide',
@@ -399,7 +428,8 @@ const plants = [
       'salix_daphnoides-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Reif-Weide'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Sal-Weide',
@@ -413,7 +443,8 @@ const plants = [
       'salix_caprea-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Sal-Weide'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Schwarz-Weide',
@@ -427,7 +458,8 @@ const plants = [
       'salix_nigricans-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarz-Weide'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Mispel',
@@ -441,7 +473,8 @@ const plants = [
       'mespilus_germanica-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Mispel'],
-    count: 10
+    count: 10,
+    flowering: []
   },
   {
     name: 'Pfaffenhütchen', // Gewöhnlicher Spindelstrauch
@@ -455,7 +488,8 @@ const plants = [
       'euonymus_europaeus-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Spindelstrauch'],
-    count: 10
+    count: 10,
+    flowering: []
   },
   {
     name: 'Sanddorn',
@@ -469,7 +503,8 @@ const plants = [
       'hippophae_rhamnoides-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Sanddorn'],
-    count: 10
+    count: 10,
+    flowering: []
   },
   {
     name: 'Gewöhnliche Waldrebe / Niele',
@@ -483,7 +518,8 @@ const plants = [
       'clematis_vitalba-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Waldrebe'],
-    count: 5
+    count: 5,
+    flowering: []
   },
   {
     name: 'Rote Heckenkirsche',
@@ -497,7 +533,8 @@ const plants = [
       'lonicera_xylosteum-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Rote_Heckenkirsche'],
-    count: 2
+    count: 2,
+    flowering: []
   },
   {
     name: 'Schwarze Heckenkirsche',
@@ -511,7 +548,8 @@ const plants = [
       'lonicera_nigra-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarze_Heckenkirsche'],
-    count: 2
+    count: 2,
+    flowering: []
   },
   {
     name: 'Wildapfel / Holzapfel',
@@ -525,7 +563,8 @@ const plants = [
       'malus_sylvestris-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Holzapfel'],
-    count: 3
+    count: 3,
+    flowering: []
   },
   {
     name: 'Wildbirne',
@@ -539,7 +578,8 @@ const plants = [
       'pyrus_pyraster-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Wildbirne'],
-    count: 3
+    count: 3,
+    flowering: []
   },
   {
     name: 'Acker-Rose',
@@ -553,7 +593,8 @@ const plants = [
       'rosa_agrestis-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Acker-Rose'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Alpen-Rose',
@@ -567,7 +608,8 @@ const plants = [
       'rosa_pendulina-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Apfel-Rose',
@@ -581,7 +623,8 @@ const plants = [
       'rosa_villosa-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Apfel-Rose'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Bereifte Rose',
@@ -595,7 +638,8 @@ const plants = [
       'rosa_glauca-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Rotblatt-Rose'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Hunds-Rose (Hecken-Rose)',
@@ -609,7 +653,8 @@ const plants = [
       'rosa_canina-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Hunds-Rose'],
-    count: 1
+    count: 1,
+    flowering: []
   },
   {
     name: 'Busch-Rose (Hecken-Rose)',
@@ -623,6 +668,7 @@ const plants = [
       'rosa_corymbifera-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Hecken-Rose'],
-    count: 1
+    count: 1,
+    flowering: []
   }
 ];
