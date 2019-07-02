@@ -87,6 +87,21 @@ const plants = [
     flowering: [4]
   },
   {
+    name: 'Gewöhnliche Traubenkirsche',
+    latin: 'Prunus padus',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_padus-ifl.bayern.jpg',
+      'prunus_padus-illustration.jpg',
+      'prunus_padus-wiki.jpg',
+      'prunus_padus-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Traubenkirsche'],
+    count: 0,
+    flowering: [4, 5, 6]
+  },
+  {
     name: 'Gemeiner Schneeball',
     latin: 'Viburnum opulus',
     familie: 'Moschuskrautgewächse',
