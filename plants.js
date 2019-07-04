@@ -102,6 +102,23 @@ const plants = [
     flowering: [4, 5, 6]
   },
   {
+    name: 'Spätblühende Traubenkirsche',
+    latin: 'Prunus serotina',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_serotina-euregio-im-bild.jpg',
+      'prunus_serotina-illustration.jpg',
+      'prunus_serotina-leelanaucd.jpg',
+      'prunus_serotina-ch2017.jpg'
+    ],
+    url: [
+      'https://de.wikipedia.org/wiki/Sp%C3%A4tbl%C3%BChende_Traubenkirsche'
+    ],
+    count: 0,
+    flowering: [5, 6]
+  },
+  {
     name: 'Gemeiner Schneeball',
     latin: 'Viburnum opulus',
     familie: 'Moschuskrautgewächse',
