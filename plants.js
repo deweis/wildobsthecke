@@ -356,7 +356,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Faulbaum'],
     count: 2,
-    flowering: []
+    flowering: [5, 6]
   },
   {
     name: 'Gemeine Hasel',
@@ -371,7 +371,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gemeine_Hasel'],
     count: 10,
-    flowering: []
+    flowering: [2, 3, 4]
   },
   {
     name: 'Grau- / Weiss-Erle',
@@ -386,7 +386,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Grau-Erle'],
     count: 2,
-    flowering: []
+    flowering: [2, 3, 4]
   },
   {
     name: 'Grün-Erle',
@@ -401,7 +401,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gr%C3%BCn-Erle'],
     count: 2,
-    flowering: []
+    flowering: [4, 5, 6]
   },
   {
     name: 'Schwarz-Erle',
@@ -416,7 +416,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarz-Erle'],
     count: 2,
-    flowering: []
+    flowering: [2, 3, 4]
   },
   {
     name: 'Gemeiner Liguster',
@@ -431,7 +431,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster'],
     count: 2,
-    flowering: []
+    flowering: [5, 6, 7]
   },
   {
     name: 'Korb-Weide',
@@ -446,7 +446,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Korb-Weide'],
     count: 1,
-    flowering: []
+    flowering: [3, 4]
   },
   {
     name: 'Purpur-Weide',
@@ -461,7 +461,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Purpur-Weide'],
     count: 1,
-    flowering: []
+    flowering: [3, 4, 5, 6]
   },
   {
     name: 'Reif-Weide',
@@ -476,7 +476,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Reif-Weide'],
     count: 1,
-    flowering: []
+    flowering: [3, 4]
   },
   {
     name: 'Sal-Weide',
@@ -491,7 +491,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Sal-Weide'],
     count: 1,
-    flowering: []
+    flowering: [3, 4, 5]
   },
   {
     name: 'Schwarz-Weide',
@@ -506,7 +506,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarz-Weide'],
     count: 1,
-    flowering: []
+    flowering: [4, 5, 6]
   },
   {
     name: 'Mispel',
@@ -521,7 +521,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Mispel'],
     count: 10,
-    flowering: []
+    flowering: [5, 6]
   },
   {
     name: 'Pfaffenhütchen', // Gewöhnlicher Spindelstrauch
@@ -536,7 +536,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Spindelstrauch'],
     count: 10,
-    flowering: []
+    flowering: [5, 6, 7]
   },
   {
     name: 'Sanddorn',
@@ -551,7 +551,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Sanddorn'],
     count: 10,
-    flowering: []
+    flowering: [4, 5]
   },
   {
     name: 'Gewöhnliche Waldrebe / Niele',
@@ -566,7 +566,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Waldrebe'],
     count: 5,
-    flowering: []
+    flowering: [7, 8]
   },
   {
     name: 'Rote Heckenkirsche',
@@ -581,7 +581,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Rote_Heckenkirsche'],
     count: 2,
-    flowering: []
+    flowering: [4, 5]
   },
   {
     name: 'Schwarze Heckenkirsche',
@@ -596,7 +596,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Schwarze_Heckenkirsche'],
     count: 2,
-    flowering: []
+    flowering: [5, 6]
   },
   {
     name: 'Wildapfel / Holzapfel',
@@ -611,7 +611,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Holzapfel'],
     count: 3,
-    flowering: []
+    flowering: [5]
   },
   {
     name: 'Wildbirne',
@@ -626,7 +626,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Wildbirne'],
     count: 3,
-    flowering: []
+    flowering: [4, 5]
   },
   {
     name: 'Acker-Rose',
@@ -641,7 +641,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Acker-Rose'],
     count: 1,
-    flowering: []
+    flowering: [6, 7]
   },
   {
     name: 'Alpen-Rose',
@@ -656,7 +656,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Gebirgs-Rose'],
     count: 1,
-    flowering: []
+    flowering: [6, 7]
   },
   {
     name: 'Apfel-Rose',
@@ -671,7 +671,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Apfel-Rose'],
     count: 1,
-    flowering: []
+    flowering: [6]
   },
   {
     name: 'Bereifte Rose',
@@ -686,7 +686,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Rotblatt-Rose'],
     count: 1,
-    flowering: []
+    flowering: [6, 7]
   },
   {
     name: 'Hunds-Rose (Hecken-Rose)',
@@ -701,7 +701,7 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Hunds-Rose'],
     count: 1,
-    flowering: []
+    flowering: [6]
   },
   {
     name: 'Busch-Rose (Hecken-Rose)',
@@ -716,6 +716,6 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Hecken-Rose'],
     count: 1,
-    flowering: []
+    flowering: [6]
   }
 ];
