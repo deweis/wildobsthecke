@@ -102,6 +102,21 @@ const plants = [
     flowering: [4, 5, 6]
   },
   {
+    name: 'Schwarze Apfelbeere / Indianerbeere',
+    latin: 'Aronia melanocarpa',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'aronia_melanocarpa-asklepios-seeds.jpg',
+      'aronia_melanocarpa-illustration.jpg',
+      'aronia_melanocarpa-susanna-komischke.jpg',
+      'aronia_melanocarpa-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Schwarze_Apfelbeere'],
+    count: 0,
+    flowering: [5]
+  },
+  {
     name: 'Spätblühende Traubenkirsche',
     latin: 'Prunus serotina',
     familie: 'Rosengewächse',
