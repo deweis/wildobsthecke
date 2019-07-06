@@ -224,6 +224,21 @@ const plants = [
     flowering: [5]
   },
   {
+    name: 'Gemeiner Bocksdorn / Goji-Beere',
+    latin: 'Lycium barbarum',
+    familie: 'Nachtschattengewächse',
+    famLat: 'Solanaceae',
+    img: [
+      'lycium_barbarum-shutterstock.jpg',
+      'lycium_barbarum-illustration.jpg',
+      'lycium_barbarum-petasandwings.jpg',
+      'lycium_barbarum-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gemeiner_Bocksdorn'],
+    count: 0,
+    flowering: [6, 7, 8]
+  },
+  {
     name: 'Gewöhnliche Berberitze / Sauerdorn',
     latin: 'Berberis vulgaris',
     familie: 'Berberitzengewächse',
