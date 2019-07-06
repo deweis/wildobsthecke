@@ -732,5 +732,20 @@ const plants = [
     url: ['https://de.wikipedia.org/wiki/Hecken-Rose'],
     count: 1,
     flowering: [6]
+  },
+  {
+    name: 'Wein-Rose',
+    latin: 'Rosa rubiginosa',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'rosa_rubiginosa-researchgate.jpg',
+      'rosa_rubiginosa-illustration.jpg',
+      'rosa_rubiginosa-native-plants.jpg',
+      'rosa_rubiginosa-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Wein-Rose'],
+    count: 1,
+    flowering: [6, 7]
   }
 ];
