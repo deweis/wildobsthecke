@@ -8,6 +8,13 @@
  * - Add Fruits from Pavel: https://www.albisboden.ch/PDF/Essbares_Wildobst.pdf
  *
  * - Main Data from https://www.infoflora.ch and pics from wiki
+ *
+ *
+ * Next to be added:
+ *  - https://de.wikipedia.org/wiki/Reichbl%C3%BCtige_%C3%96lweide
+ *  - https://de.wikipedia.org/wiki/Japanische_Zierquitte
+ *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
+ *  -
  */
 
 const plants = [
@@ -102,21 +109,6 @@ const plants = [
     flowering: [4, 5, 6]
   },
   {
-    name: 'Schwarze Apfelbeere / Indianerbeere',
-    latin: 'Aronia melanocarpa',
-    familie: 'Rosengewächse',
-    famLat: 'Rosaceae',
-    img: [
-      'aronia_melanocarpa-asklepios-seeds.jpg',
-      'aronia_melanocarpa-illustration.jpg',
-      'aronia_melanocarpa-susanna-komischke.jpg',
-      'aronia_melanocarpa-ch2017.jpg'
-    ],
-    url: ['https://de.wikipedia.org/wiki/Schwarze_Apfelbeere'],
-    count: 0,
-    flowering: [5]
-  },
-  {
     name: 'Spätblühende Traubenkirsche',
     latin: 'Prunus serotina',
     familie: 'Rosengewächse',
@@ -132,6 +124,36 @@ const plants = [
     ],
     count: 0,
     flowering: [5, 6]
+  },
+  {
+    name: 'Vogel-Kirsche / Süsskirsche',
+    latin: 'Prunus avium',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_avium-gartenwelt-meissner.jpg',
+      'prunus_avium-illustration.jpg',
+      'prunus_avium-pflanzenbestimmung.jpg',
+      'prunus_avium-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Vogel-Kirsche'],
+    count: 0,
+    flowering: [4, 5]
+  },
+  {
+    name: 'Schwarze Apfelbeere / Indianerbeere',
+    latin: 'Aronia melanocarpa',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'aronia_melanocarpa-asklepios-seeds.jpg',
+      'aronia_melanocarpa-illustration.jpg',
+      'aronia_melanocarpa-susanna-komischke.jpg',
+      'aronia_melanocarpa-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Schwarze_Apfelbeere'],
+    count: 0,
+    flowering: [5]
   },
   {
     name: 'Gemeiner Schneeball',
