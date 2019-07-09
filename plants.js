@@ -14,6 +14,8 @@
  *  - https://de.wikipedia.org/wiki/Reichbl%C3%BCtige_%C3%96lweide
  *  - https://de.wikipedia.org/wiki/Japanische_Zierquitte
  *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
+ *  - https://de.wikipedia.org/wiki/Sauerkirsche
+ *  - https://de.wikipedia.org/wiki/Zwerg-Kirsche
  *  -
  */
 
@@ -79,6 +81,21 @@ const plants = [
     flowering: [3, 4]
   },
   {
+    name: 'Sauerkirsche / Weichsel',
+    latin: 'Prunus cerasus',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_cerasus-wiki.jpg',
+      'prunus_cerasus-illustration.jpg',
+      'prunus_cerasus-wiki2.jpg',
+      'prunus_cerasus-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Sauerkirsche'],
+    count: 0,
+    flowering: [4, 5]
+  },
+  {
     name: 'Schwarzdorn / Schlehdorn',
     latin: 'Prunus spinosa',
     familie: 'Rosengewächse',
@@ -126,7 +143,7 @@ const plants = [
     flowering: [5, 6]
   },
   {
-    name: 'Vogel-Kirsche / Süsskirsche',
+    name: 'Vogelkirsche / Süsskirsche',
     latin: 'Prunus avium',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
@@ -393,6 +410,21 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Faulbaum'],
     count: 2,
+    flowering: [5, 6]
+  },
+  {
+    name: 'Reichblütige- / Essbare Ölweide',
+    latin: 'Elaeagnus multiflora',
+    familie: 'Ölweidengewächse',
+    famLat: 'Elaeagnaceae',
+    img: [
+      'elaeagnus_multiflora-kornelkirsche.jpg',
+      'elaeagnus_multiflora-illustration.jpg',
+      'elaeagnus_multiflora-baumschule-horstmann.jpg',
+      'elaeagnus_multiflora-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Reichbl%C3%BCtige_%C3%96lweide'],
+    count: 0,
     flowering: [5, 6]
   },
   {
