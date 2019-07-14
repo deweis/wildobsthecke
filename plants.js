@@ -11,12 +11,11 @@
  *
  *
  * Next to be added:
- *  - https://de.wikipedia.org/wiki/Reichbl%C3%BCtige_%C3%96lweide
  *  - https://de.wikipedia.org/wiki/Japanische_Zierquitte
  *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
- *  - https://de.wikipedia.org/wiki/Sauerkirsche
  *  - https://de.wikipedia.org/wiki/Zwerg-Kirsche
- *  -
+ *  - https://de.wikipedia.org/wiki/Himbeere
+ *  - https://de.wikipedia.org/wiki/Brombeeren
  */
 
 const plants = [
@@ -381,6 +380,21 @@ const plants = [
     url: ['https://de.wikipedia.org/wiki/Speierling'],
     count: 5,
     flowering: [5, 6, 7]
+  },
+  {
+    name: 'Japanische Zierquitte',
+    latin: 'Chaenomeles japonica',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'chaenomeles_japonica-etsy.jpg',
+      'chaenomeles_japonica-illustration.jpg',
+      'chaenomeles_japonica-wiki2.jpg',
+      'chaenomeles_japonica_ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Japanische_Zierquitte'],
+    count: 0,
+    flowering: [3, 4]
   },
   {
     name: 'Alpenkreuzdorn',
