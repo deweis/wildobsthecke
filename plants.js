@@ -11,7 +11,6 @@
  *
  *
  * Next to be added:
- *  - https://de.wikipedia.org/wiki/Japanische_Zierquitte
  *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
  *  - https://de.wikipedia.org/wiki/Zwerg-Kirsche
  *  - https://de.wikipedia.org/wiki/Himbeere
@@ -153,6 +152,21 @@ const plants = [
       'prunus_avium-ch2017.jpg'
     ],
     url: ['https://de.wikipedia.org/wiki/Vogel-Kirsche'],
+    count: 0,
+    flowering: [4, 5]
+  },
+  {
+    name: 'Zwerg-Kirsche',
+    latin: 'Prunus fruticosa',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'prunus_fruticosa-wiki.jpg',
+      'prunus_fruticosa-illustration.jpg',
+      'prunus_fruticosa-wiki2.jpg',
+      'prunus_fruticosa-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Zwerg-Kirsche'],
     count: 0,
     flowering: [4, 5]
   },
