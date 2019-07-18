@@ -11,8 +11,10 @@
  *
  *
  * Next to be added:
+ *  - https://de.wikipedia.org/wiki/Liste_von_Wildfr%C3%BCchten
+ *
+ *  - https://de.wikipedia.org/wiki/Schwarze_Maulbeere
  *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
- *  - https://de.wikipedia.org/wiki/Zwerg-Kirsche
  *  - https://de.wikipedia.org/wiki/Himbeere
  *  - https://de.wikipedia.org/wiki/Brombeeren
  */
@@ -156,7 +158,7 @@ const plants = [
     flowering: [4, 5]
   },
   {
-    name: 'Zwerg-Kirsche',
+    name: 'Zwerg-/ Steppen-Kirsche',
     latin: 'Prunus fruticosa',
     familie: 'Rosengewächse',
     famLat: 'Rosaceae',
@@ -213,6 +215,21 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Wolliger_Schneeball'],
     count: 2,
+    flowering: [5]
+  },
+  {
+    name: 'Schwarze Maulbeere',
+    latin: 'Morus nigra',
+    familie: 'Maulbeergewächse',
+    famLat: 'Moraceae',
+    img: [
+      'morus_nigra-jardins-du-monde.jpg',
+      'morus_nigra-illustration.jpg',
+      'morus_nigra-youtube.jpg',
+      'morus_nigra-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Schwarze_Maulbeere'],
+    count: 0,
     flowering: [5]
   },
   {
