@@ -13,7 +13,6 @@
  * Next to be added:
  *  - https://de.wikipedia.org/wiki/Liste_von_Wildfr%C3%BCchten
  *
- *  - https://de.wikipedia.org/wiki/Schwarze_Maulbeere
  *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
  *  - https://de.wikipedia.org/wiki/Himbeere
  *  - https://de.wikipedia.org/wiki/Brombeeren
@@ -740,6 +739,21 @@ const plants = [
     ],
     url: ['https://de.wikipedia.org/wiki/Wildbirne'],
     count: 3,
+    flowering: [4, 5]
+  },
+  {
+    name: 'Nashi-Birne',
+    latin: 'Pyrus pyrifolia',
+    familie: 'Rosengewächse',
+    famLat: 'Rosaceae',
+    img: [
+      'pyrus_pyrifolia-wiki.jpg',
+      'pyrus_pyrifolia-illustration.jpg',
+      'pyrus_pyrifolia-wiki2.jpg',
+      'pyrus_pyrifolia-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Nashi-Birne'],
+    count: 0,
     flowering: [4, 5]
   },
   {
