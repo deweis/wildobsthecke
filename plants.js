@@ -12,10 +12,13 @@
  *
  * Next to be added:
  *  - https://de.wikipedia.org/wiki/Liste_von_Wildfr%C3%BCchten
- *
+ *  - https://de.wikipedia.org/wiki/Echte_Feige
+ *  - https://de.wikipedia.org/wiki/Quitte
+ *  - https://de.wikipedia.org/wiki/Gemeiner_Erbsenstrauch
  *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
  *  - https://de.wikipedia.org/wiki/Himbeere
  *  - https://de.wikipedia.org/wiki/Brombeeren
+ *  - https://de.wikipedia.org/wiki/H%C3%A4nge-Birke
  */
 
 const plants = [
@@ -470,6 +473,21 @@ const plants = [
     url: ['https://de.wikipedia.org/wiki/Reichbl%C3%BCtige_%C3%96lweide'],
     count: 0,
     flowering: [5, 6]
+  },
+  {
+    name: 'Gemeiner Erbsenstrauch',
+    latin: 'Caragana arborescens',
+    familie: 'Hülsenfrüchtler',
+    famLat: 'Fabaceae',
+    img: [
+      'caragana_arborescens-wiki.jpg',
+      'caragana_arborescens-illustration.jpg',
+      'caragana_arborescens-wiki2.jpg',
+      'caragana_arborescens-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gemeiner_Erbsenstrauch'],
+    count: 0,
+    flowering: [5, 6, 7]
   },
   {
     name: 'Gemeine Hasel',
