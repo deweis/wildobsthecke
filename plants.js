@@ -14,7 +14,6 @@
  *  - https://de.wikipedia.org/wiki/Liste_von_Wildfr%C3%BCchten
  *  - https://de.wikipedia.org/wiki/Echte_Feige
  *  - https://de.wikipedia.org/wiki/Quitte
- *  - https://de.wikipedia.org/wiki/Gemeiner_Erbsenstrauch
  *  - https://de.wikipedia.org/wiki/Chinesische_Zierquitte
  *  - https://de.wikipedia.org/wiki/Himbeere
  *  - https://de.wikipedia.org/wiki/Brombeeren
@@ -323,6 +322,21 @@ const plants = [
     url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Berberitze'],
     count: 10,
     flowering: [5, 6]
+  },
+  {
+    name: 'Gewöhnliche Mahonie',
+    latin: 'Berberis aquifolium',
+    familie: 'Berberitzengewächse',
+    famLat: 'Berberidaceae',
+    img: [
+      'berberis_aquifolium-fruits-DWE.jpg',
+      'berberis_aquifolium-illustration.jpg',
+      'berberis_aquifolium-wikimedia.jpg',
+      'berberis_aquifolium-ch2017.jpg'
+    ],
+    url: ['https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Mahonie'],
+    count: 0,
+    flowering: [3, 4, 5, 6]
   },
   {
     name: 'Eingriffeliger Weissdorn',
